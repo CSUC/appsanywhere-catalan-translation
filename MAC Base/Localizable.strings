@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  Updater
+
+  Created by Miguel Angel Flores on 21/12/17.
+  Copyright © 2017 CSUC. All rights reserved.
+*/
+
+"Main state message - initialising" = "Inicialitzant...";
+"Main state message - launching" = "Iniciant...";
+"Main state message - validating" = "Validant...";
+"Main state message - validation error" = "Error de validació!";
+"Main state message - sending data error" = "Enviant dades d'error!";
+"Main state message - deploy error" = "Error Desplegant!";
+"Main state message - vmware launch error" = "Error en iniciar VMware!";
+"Main state message - vmware install error" = "Error d'instal·lació VMware!";
+"Main state message - parallels launch error" = "Error en iniciar Parallels!";
+"Main state message - parallels install error" = "Error d'instal·lació Parallels!";
+"Main state message - initialisation error" = "Error d'inicialització AppsAnywhere!";
+"Main state message - local launch error" = "Error en inicar Local!";
+"Main state message - retrieve message error" = "Recuperant missatge d'error!";
+"Main state message - update required" = "AppsAnywhere necessita una actualització!";
+
+"Additional state message - validation error" = "S'ha produït un error recopilant les dades de validació.";
+"Additional state message - sending data error" = "S'ha produït un error en enviar dades al Hub.";
+"Additional state message - validating hub error" = "S'ha produït un error durant la validació de la sessió amb el Hub.";
+"Additional state message - deploy error" = "S'ha produït un error durant el desplegament d'una aplicació.";
+"Additional state message - download error" = "S'ha produït un error durant la descàrrega d'un fitxer d'instal·lació.";
+"Additional state message - vmware launch error" = "S'ha produït un error al iniciar una aplicació VMware.";
+"Additional state message - vmware install error" = "S'ha produït un error instal·lant VMware.";
+"Additional state message - parallels launch error" = "S'ha produït un error al iniciar una aplicació Parallels.";
+"Additional state message - parallels install error" = "S'ha produït un error instal·lant Parallels.";
+"Additional state message - initialisation error" = "S'ha produït un error durant la inicialització d'AppsAnywhere.";
+"Additional state message - local launch error" = "S'ha produït un error al iniciar una aplicació local.";
+"Additional state message - retrieve message error" = "S'ha produït un error en recuperar el missatge del Hub.";
+"Additional state message - installing launcher" = "La teva aplicació estarà disponible en breu. Si us plau sigui pacient";
+"Additional state message - update required" = "Feu clic a 'Actualitza ara' per iniciar el procés d'actualització.";
+
+"Current state message - validating" = "Validant la sessió.";
+"Current state message - downloading" = "Baixant paquet";
+"Current state message - deploying" = "Desplegant applicació";
+"Current state message - launching" = "Iniciant l'aplicació";
+"Current state message - gathering data" = "Recopilant dades de validació.";
+"Current state message - validated" = "Sessió validada.";
+"Current state message - sending validation" = "Enviant dades de validació al Hub.";
+"Current state message - validation sent" = "Dades de validació enviades.";
+"Current state message - validation error" = "Error recopilant dades de validació.";
+"Current state message - sending data error" = "Error enviant dades.";
+"Current state message - validating error" = "Error validant la sessió.";
+"Current state message - deploy error" = "Error desplegant l'applicació.";
+"Current state message - download error" = "Error baixant la instal·lació.";
+"Current state message - vmware launch error" = "Error iniciant una aplicació VMware.";
+"Current state message - vmware install error" = "Error al instal·lar VMware.";
+"Current state message - parallels launch error" = "Error iniciant una aplicació Parallels.";
+"Current state message - parallels install error" = "Error al instal·lar Parallels.";
+"Current state message - initialisation error" = "Error inicialitzant AppsAnywhere.";
+"Current state message - retrieving message" = "Recuperant el missatge d'inici.";
+"Current state message - vmware launching application" = "Iniciant una aplicació VMware.";
+"Current state message - parallels launching application" = "Iniciant una aplicació Parallels.";
+"Current state message - local app launching" = "Iniciant una aplicació local.";
+"Current state message - local launch error" = "Error iniciant una aplicació local.";
+"Current state message - retrieve message error" = "Error recuperarant el missatge.";
+"Current state message - installing vmware" = "Instal·lant client VMware...";
+"Current state message - installing parallels" = "Instal·lant client Parallels...";
+
+"Contact support state message - contact" = "Poseu-vos en contacte amb suport si necessiteu ajuda.";
+
+"Close button message - close" = "Tanca";
+"Update now button message - Update now" = "Actualitza ara";
+"Update later button message - Update later" = "Actualitza després";

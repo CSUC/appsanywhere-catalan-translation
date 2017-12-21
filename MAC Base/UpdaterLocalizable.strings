@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  Updater
+
+  Created by Miguel Angel Flores on 21/12/17.
+  Copyright © 2017 CSUC. All rights reserved.
+*/
+
+"Main state message - updating" = "Actualizant AppsAnywhere...";
+"Main state message - error updating" = "Error actualitzant!";
+
+"Additional state message - error while updating" = "S'ha produït un error durant l'actualització AppsAnywhere.";
+
+"Current state message - checking for update" = "Cercant actualitzacions.";
+"Current state message - downloading update" = "Baixant actualització.";
+"Current state message - applying update" = "Aplicant actualització.";
+"Current state message - failed-update-url-missing" = "Resposta de versió incorrecta.";
+"Current state message - failed-download-failed" = "S'ha produït un error baixant l'actualització.";
+"Current state message - failed-run-package" = "No s'ha pogut executar el paquet d'actualitzacions.";
+"Current state message - failed-exception-occured" = "S'ha produït un error inesperat.";
+
+"Contact support state message - contact" = "Poseu-vos en contacte amb suport si necessiteu ajuda.";
+
+"Close button message - close" = "Tanca";

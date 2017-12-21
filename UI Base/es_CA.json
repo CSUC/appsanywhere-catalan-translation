@@ -1,0 +1,406 @@
+{
+    "_metadata":{
+        "display_name":"Català (Espanya)",
+        "locale_code":"es_CA",
+        "locale_code_short":"ca"
+    },
+    "action":{
+        "next":"Següent",
+        "previous":"Anterior",
+        "done":"Fet",
+        "go":"Ves",
+        "got_it":"Llest!",
+        "ok":"D'acord",
+        "cancel":"Cancel·la",
+        "close":"Tanca",
+        "launch":"Inicia",
+        "download":"Descarrega",
+        "install":"Instal·la",
+        "run":"Executa",
+        "visit_website":"Visita el lloc web",
+        "submit_2fa":"Envia 2FA",
+        "validate":"Valida"
+    },
+    "ajax":{
+        "form_success":"Completat amb èxit.",
+        "form_error":"Hi ha hagut un problema a l'enviar el formulari. Torna-ho a provar.",
+        "link_error":"Hi ha hagut un problema al carregar l'enllaç. Torna-ho a provar."
+    },
+    "app":{
+        "more_info_button":"Més informació",
+        "less_info_button":"Menys informació",
+        "unknown_vendor":"Fabricant desconegut",
+        "no_description":"No hi ha cap descripció disponible en aquest moment.",
+        "no_delivery_method":"No s'han trobat mètodes d'entrega per a aquesta aplicació.",
+        "no_match":"Ho sento, no hi ha cap aplicació que coincideixi amb la teva selecció.",
+        "none_found":"Ho sento, no hi ha aplicacions disponibles actualment. Si us plau, contacta amb el servei d'assistència per demanar accés.",
+        "needs_validation":"Necessita validació",
+        "launch":{
+            "other":"Altres opcions d'execució"
+        },
+        "more_info":{
+            "tab_details":"Detalls de l'aplicació",
+            "vendor":"Fabricant",
+            "description":"Descripció",
+            "categories":"Categories",
+            "tab_dms":"Mètodes d'entrega",
+            "dms_for":"Mètodes d'entrega per",
+            "dm_info":"Informació",
+            "dm_description":"Descripció",
+            "dm_restrictions":"Restriccions",
+            "dm_oss":"Sistemes operatius",
+            "os_support":"Suport",
+            "tab_regions":"Restriccions",
+            "filter_countries":"Filtrar per països",
+            "regions_for":"Regions disponibles per",
+            "regions_unrestricted":"Aquesta aplicació no està restringida per regió."
+        },
+        "os":{
+            "supported":"Compatible",
+            "unsupported":"No compatible",
+            "untested":"No provat",
+            "support_full":"Compatible amb",
+            "support_none":"No s'admet",
+            "support_unknown":"No s'ha provat a",
+            "support_partial":"Compatible parcialment amb"
+        },
+        "restrictions":{
+            "machine_only":"Aquesta aplicació només està disponible en aquesta màquina",
+            "offsite_ok":"Permès off-site",
+            "offsite_not_ok":"No permès off-site",
+            "byod_ok":"Dispositius propietat d'usuari (BYOD) permesos",
+            "byod_not_ok":"Els dispositius propietat d'usuari (BYOD) no estan permesos",
+            "offline_ok":"Disponible fora de línia",
+            "offline_not_ok":"No està disponible fora de línia",
+            "domain_any":"Qualsevol domini",
+            "domain_restricted":"Només dominis de la institució",
+            "region_any":"Qualsevol regió",
+            "region_restricted":"Regió restringida",
+            "region_unrestricted":"Aquesta aplicació no està restringida per regió."
+        },
+        "status":{
+            "requires_2fa":"Aquesta aplicació requereix 2FA",
+            "requires_validation":"Aquesta aplicació requereix validació",
+            "unavailable_text":"Aquesta aplicació no està disponible",
+            "unavailable_action":"No disponible",
+            "launching_via":"Inicia via"
+        }
+    },
+    "favourite":{
+        "add_text":"Afegeix als preferits",
+        "add_title":"Afegeix als preferits",
+        "remove_text":"Elimina",
+        "remove_title":"Elimina dels preferits"
+    },
+    "client":{
+        "have":"Ja ho tinc",
+        "download":"Descarrega"
+    },
+    "context":{
+        "status":{
+            "device":"Màquina",
+            "device_type":"Tipus de màquina",
+            "device_org_owned":"Propietat de la universitat",
+            "device_byod":"Propietat de l'usuari",
+            "location":"Ubicació",
+            "off_site":"Off-Site",
+            "on_site":"On-Site",
+            "not_byod":"No",
+            "os":"Sistema operatiu"
+        },
+        "helpers":{
+            "permitted":"Permès",
+            "not_permitted":"No permès",
+            "device_title":"Aquesta aplicació només està disponible a les màquines seleccionades",
+            "device_text":"Aquesta aplicació està especialment subministrada a determinades màquines i pot ser que no estigui disponible en cap altre lloc.",
+            "off_domain_title":"Accés fora del domini",
+            "off_domain_text":"Si l'accés fora del domini no està permès, el teu dispositiu haurà d'estar connectat i autenticat a un dels dominis de la institució.",
+            "is_on_domain":"Sou dins del domini",
+            "is_off_domain":"Sou fora del domini",
+            "off_site_title":"Accés Off-site",
+            "off_site_text":"Si l'accés off-site no està permès, el teu dispositiu haurà d'estar connectat a la nostra xarxa local. Això pot incloure estar connectat per VPN.",
+            "is_on_site":"Esteu on site",
+            "is_off_site":"Esteu off site",
+            "org_owned_title":"Dispositius propietat de la institució",
+            "org_owned_text":"Si els dispositius propietat de la institució no estan permesos, només es podran utilitzar els dispositius propietat de l'usuari.",
+            "byod_title":"Dispositius propietat de l'usuari",
+            "byod_text":"Si els dispositius propietat de l'usuari no estan permesos, només es podran utilitzar els dispositius propietat de la institució.",
+            "is_org_owned":"Estàs utilitzant un dispositiu de la institució",
+            "is_byod":"Estàs utilitzant el teu propi dispositiu",
+            "not_byod":"El teu dispositiu no pertany a aquesta categoria",
+            "org_owned_rqd":"Utilitzes un dispositiu propietat de la institució per accedir a aquesta aplicació",
+            "byod_rqd":"Utilitzes un dispositiu que no pertany a una institució per accedir a aquesta aplicació"
+        },
+        "tooltips":{
+            "domain_restricted":"Només del domini",
+            "domain_any":"Qualsevol domini",
+            "offsite_ok":"Permès Off-Site",
+            "offsite_not_ok":"No permès Off-Site",
+            "byod_ok":"Dispositius propietat d'usuari permesos",
+            "byod_not_ok":"No es permeten els dispositius d'usuari",
+            "region_ok":"Regió actual permesa",
+            "region_not_ok":"Regió actual no permesa",
+            "offline_ok":"S'ha desactivat fora de línia",
+            "offline_not_ok":"Requereix connexió",
+            "via_cloudpaging":"Disponible a través de CloudPaging",
+            "not_via_cloudpaging":"No disponible a través de CloudPaging",
+            "via_remoteapp":"Disponible a través de RemoteApp",
+            "not_via_remoteapp":"No disponible a través de RemoteApp"
+        }
+    },
+    "filter":{
+        "show":"Mostra",
+        "all_available":"Totes disponibles",
+        "unavailable":"No disponible",
+        "favourites":"Favorits",
+        "apps":"Aplicacions",
+        "desktops":"Escriptoris",
+        "os_short":"SO",
+        "os_singular":"Sistema operatiu",
+        "os_plural":"Sistemes operatius",
+        "containing":"Conté",
+        "categories":{
+            "singular":"Categoria",
+            "plural":"Categories",
+            "none_selected":"No hi ha categories seleccionades"
+        }
+    },
+    "cloudpaging":{
+        "no_applications_found":"No s'ha trobat cap aplicació",
+        "no_versions_found":"No s'ha trobat cap versió"
+    },
+    "data_table":{
+        "load_more":"Carrega més resultats",
+        "more_found":"No s'estan mostrant tots els resultats. Fes clic a 'Carrega més resultats' per mostrar-los tots.",
+        "no_data":"Ho sentim, no s'ha pogut trobar cap informació."
+    },
+    "delivery_methods":{
+        "external_website":"Lloc web extern",
+        "direct_download":"Descàrrega directa",
+        "secure_download":"Descàrrega segura",
+        "cloudpaging":"Cloudpaging",
+        "osx_install":"Instal·la per a OSX",
+        "windows_executable":"Windows executable",
+        "locally_deployed_win":"Desplegat localment (Win)",
+        "locally_installed":"Instal·lat localment",
+        "parallels_html5_cloudpaged":"Parallels HTML5: Cloudpaged",
+        "parallels_html5_desktop":"Parallels HTML5: Escriptori",
+        "parallels_html5_native":"Parallels HTML5: Natiu",
+        "parallels_cloudpaged":"Parallels: Cloudpaged",
+        "parallels_desktop":"Parallels: Escriptori",
+        "parallels_native":"Parallels: Natiu",
+        "remoteapp":"RemoteApp",
+        "sccmappv_install":"SCCM/App-V Install",
+        "vmware_horizon_cloudpaged":"VMWare Horizon: Cloudpaged",
+        "vmware_horizon_desktop":"VMWare Horizon: Escriptori",
+        "vmware_horizon_native":"VMWare Horizon: Natiu",
+        "external_website_desc":"<p>El mètode d'entrega de lloc web extern simplement et dirigirà a un altre web on podràs trobar informació sobre l'accés a l'element que has seleccionat.</p><p>Si el recurs és una aplicació web, és probable que et porti directament a l'aplicació.</p>",
+        "direct_download_desc":"<p>El mètode d'entrega de la descàrrega directa iniciarà la descàrrega d'un fitxer al navegador que, generalment, acabarà a la carpeta de descàrregues del teu dispositiu, depenent de la configuració del teu navegador.</p><p>Si estàs iniciant una aplicació, podria ser que el fitxer fos l'instal·lador d'aquesta aplicació. Si és així, pots instal·lar-lo tu mateix/a al teu dispositiu. Consulta la descripció de l'aplicació per obtenir més informació sobre què fer amb el fitxer proporcionat.</p>",
+        "secure_download_desc":"<p>El mètode d'entrega de la transferència segura iniciarà la descàrrega d'un fitxer al teu navegador que (generalment) acabarà a la carpeta de descàrregues del teu dispositiu, depenent de la configuració del navegador.</p><p>Si estàs iniciant una aplicació, podria ser que el fitxer fos l'instal·lador d'aquesta aplicació. Si és així, pots instal·lar-lo tu mateix/a al teu dispositiu. Consulta la descripció de l'aplicació per obtenir més informació sobre què fer amb el fitxer proporcionat.</p><p>Aquestes descàrregues estan disponibles només quan estàs autenticat a AppsAnywhere.</p>",
+        "cloudpaging_desc":"<p>El mètode d'entrega Cloudpaging ens permet oferir aplicacions sense haver d'instal·lar-les físicament al teu dispositiu.</p><p>En lloc d'això, l'aplicació és lliurada a través de la xarxa o d'Internet, de la mateixa forma com els reproductors multimèdia a la carta presenten contingut visual.</p><p>Un cop hagis fet clic a 'Inicia', l'aplicació s'emmagatzemarà i carregarà al dispositiu, i es comportarà com si estigués instal·lada localment, però en realitat s'està lliurant a través de la connexió.</p><p>Comprova la icona 'fora de línia permesa' per veure si necessites mantenir-te connectat per continuar utilitzant l'aplicació.</p>",
+        "osx_install_desc":"<p>El mètode d'entrega de la instal·lació d'OSX activarà la instal·lació completa del recurs seleccionat al teu dispositiu Mac OS.</p><p>Tot el procés serà totalment automatitzat i no hauràs de fer res més que esperar a que l'aplicació es posi en marxa.</p>",
+        "windows_executable_desc":"<p>El mètode d'entrega executable de Windows activarà el llançament (i possiblement també la instal·lació) de l'aplicació al teu dispositiu Windows.</p><p>Tot el procés serà totalment automatitzat i no has de fer res més que esperar a que l'aplicació es posi en marxa.</p>",
+        "locally_deployed_win_desc":"<p>El mètode d'entrega implementat localment s'utilitza per iniciar aplicacions que ja s'han instal·lat en determinats dispositius Windows. L'administrador definirà quins dispositius tenen aquesta aplicació preinstal·lada i si accedeixes a AppsAnywhere en un d'aquests dispositius, aquest mètode d'entrega s'utilitzarà per iniciar l'aplicació directament, en lloc d'intentar desplegar-la de nou.</p>",
+        "locally_installed_desc":"<p>El mètode d'entrega instal·lat localment s'utilitza per iniciar aplicacions que ja estan instal·lades al dispositiu Windows o Mac. Si el client d'AppsAnywhere detecta que l'aplicació ja està disponible al teu dispositiu, et recomanarà aquest mètode d'entrega perquè l'aplicació es pugui iniciar directament.</p>",
+        "parallels_html5_cloudpaged_desc":"<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, des del teu navegador.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
+        "parallels_html5_desktop_desc":"<p>El mètode d'entrega de l'escriptori Parallels HTML5 et proporciona accés remot a un dispositiu allotjat per la institució des del teu navegador.</p><p>Els escriptoris remots permeten accedir a aplicacions, arxius i altres recursos com si estiguessis assegut davant un dispositiu de la institució.</p><p>Aquest mètode d'entrega et permetrà accedir a recursos que no estiguin disponibles des del dispositiu.</p>",
+        "parallels_html5_native_desc":"<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, des del teu navegador.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
+        "parallels_cloudpaged_desc":"<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, mitjançant el client Parallels.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
+        "parallels_desktop_desc":"<p>El mètode d'entrega d'escriptori de Parallels et proporciona accés remot a un dispositiu allotjat per la institució mitjançant els clients de Parallels.</p><p>Els escriptoris remots permeten accedir a aplicacions, arxius i altres recursos com si estiguessis assegut davant un dispositiu de la institució.</p><p>Aquest mètode d'entrega et permetrà accedir a recursos que no estiguin disponibles des del dispositiu.</p>",
+        "parallels_native_desc":"<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, mitjançant el client Parallels.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
+        "remoteapp_desc":"<p>El mètode d'entrega RemoteApp utilitza la tecnologia RemoteApp de Microsoft per accedir a una aplicació que s'executa en un altre equip, generalment en un servidor de la xarxa de la institució.</p><p>No necessites instal·lar res al dispositiu, però hauràs d'estar connectat per continuar utilitzant l'aplicació.</p>",
+        "sccmappv_install_desc":"<p>El mètode d'entrega d'instal·lació SCCM/App-V activarà la instal·lació completa del recurs seleccionat al teu dispositiu Windows.</p><p>El procés d'instal·lació serà totalment automatitzat i no hauràs de fer res més que esperar que el recurs estigui disponible permanentment a la màquina.</p>",
+        "vmware_horizon_cloudpaged_desc":"<p>El mètode d'entrega de l'aplicació remota de VMware Horizon et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, normalment allotjat a la institució.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
+        "vmware_horizon_desktop_desc":"<p>El mètode d'entrega de l'escriptori VMware Horizon t'ofereix accés complet i remot a un dispositiu allotjat per la institució.</p><p>Els escriptoris remots permeten accedir a aplicacions, arxius i altres recursos com si estiguessis assegut davant un dispositiu de la institució.</p><p>Normalment, aquest mètode d'entrega et permetrà accedir a recursos que no estiguin disponibles des del dispositiu.</p>",
+        "vmware_horizon_native_desc":"<p>El mètode d'entrega de l'aplicació remota de VMware Horizon et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, normalment allotjat a la institució.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el dispositiu no és físicament  capaç d'executar aquesta aplicació.</p>",
+        "none":"No es poden trobar mètodes d'entrega per a aquesta aplicació.",
+        "priority_error":"No hem pogut desar les prioritats del mètode d'entrega.",
+        "priority_success":"La prioritat del mètode d'entrega s'ha actualitzat correctament."
+    },
+    "dependency":{
+        "have":"Ja ho tinc",
+        "intro_automatic":"L'aplicació que està a punt de començar té dependències que s'executaran automàticament. Les aplicacions requerides s'enumeren aquí per a la teva informació.",
+        "intro_manual":"L'aplicació que ets a punt d'iniciar té dependències. Una vegada que totes les aplicacions que figuren aquí s'hagin iniciat, podràs continuar.",
+        "launch_single":"Inicia l'aplicació",
+        "launch_all":"Inicia aplicacions i dependències",
+        "title":"Dependències de l'aplicació"
+    },
+    "error":{
+        "categories":"No hem pogut carregar la informació de la categoria. Encara pots accedir a les teves aplicacions, però no podràs cercar per categoria. Si aquest problema continua, posa't en contacte amb el servei de suport.",
+        "client_settings":"Els canvis no s'han pogut desar en aquest moment. Torna-ho a provar.",
+        "cloudpaging_applications":"Les aplicacions de CloudPaging no s'han pogut carregar en aquest moment.",
+        "context":"No s'ha pogut carregar el context d'aplicació. Les aplicacions no estaran disponibles.",
+        "copy":"Ha fallat la còpia. Prem Ctrl / Cmd + C per copiar el text seleccionat.",
+        "delivery_methods":"Els mètodes d'entrega no s'han pogut carregar en aquest moment. Intenta actualitzar la pàgina.",
+        "identity":"No hem pogut recuperar la teva informació d'identitat. Si aquest problema continua, posa't en contacte amb suport.",
+        "launch":"Hi ha hagut un problema per determinar com iniciar l'aplicació. Torna-ho a provar.",
+        "lazyload":"Hi ha hagut un problema al carregar una de les icones, però l'aplicació hauria de seguir funcionant correctament.",
+        "login":"Hi ha hagut un problema a l'intentar iniciar sessió. Torna-ho a provar de nou.",
+        "machine_apps":"Ho sentim, no hem pogut determinar si hi ha aplicacions addicionals disponibles per a aquest dispositiu. Torna-ho a provar.",
+        "register_new_apps":"Hi ha hagut un problema al registrar noves aplicacions. Torna-ho a provar.",
+        "apps":{
+            "initial":"Ho sentim, no hem pogut carregar les aplicacions en aquest moment. Torna-ho a provar.",
+            "more_info":"No hem pogut carregar tota la informació de l'aplicació.",
+            "no_compat_info":"No s'ha pogut trobar la informació de compatibilitat per a aquesta aplicació."
+        },
+        "favourites":{
+            "toggle":"No hem pogut actualitzar l'aplicació. Torna-ho a provar."
+        },
+        "validation":{
+            "copy":"Ho sentim, no hem pogut validar el teu dispositiu en aquest moment. Fes clic a 'Reintenta' i no oblidis acceptar la 'Sol·licitud de protocol extern'",
+            "fail":"No hem pogut recuperar el teu estat de validació. Si aquest problema persisteix, posa't en contacte amb el servei de suport.",
+            "title":"La validació ha fallat"
+        }
+    },
+    "form":{
+        "required":"Aquest camp és obligatori."
+    },
+    "header":{
+        "logged_in_as":"S'ha iniciat sessió",
+        "logout":"Tanca sessió",
+        "skip_to_apps":"Salta a les aplicacions",
+        "using_domain":"Utilitzant el domini",
+        "access_admin":"Torna a l'administració",
+        "search_tooltip":"Cerca aplicacions"
+    },
+    "ldap":{
+        "no_data":"Ho sento, no s'ha pogut trobar cap informació en aquest moment."
+    },
+    "login":{
+        "365":"Inicia sessió amb Office 365",
+	"unificat":"Inicia sessió per UNIFICAT",
+        "redirecting":"Redirigint",
+        "sign_in":"Inicia sessió",
+        "signing_in":"Inici de sessió"
+    },
+    "manager":{
+        "missing":{
+            "copy":"Necessites tenir instal·lat AppsAnywhere perquè puguem entregar les teves aplicacions. Si encara no has instal·lat AppsAnywhere, només cal que facis clic a 'Instal·la ara'",
+            "title":"Has instal·lat AppsAnywhere al teu dispositiu?"
+        }
+    },
+    "misc":{
+        "all_rights_reserved":"Tots els drets reservats",
+        "copied":"Copiat!",
+        "currently_showing":"S'està mostrant actualment",
+        "slow_connection":"Sembla que triga més del que és habitual. Encara ho estem intentant. Espera, si us plau.",
+        "unknown":"Desconegut"
+    },
+    "platform":{
+        "android":"Plataforma Android",
+        "ios":"Plataforma iOS",
+        "linux":"Plataforma Linux",
+        "mac":"Plataforma macOS",
+        "unsupported":"La plataforma que utilitzes no és compatible actualment. Algunes aplicacions encara podrien funcionar correctament."
+    },
+    "preferences":{
+        "title":"Preferències",
+        "language":"Idioma",
+        "layout":"Disseny",
+        "show_tips":"Mostra consells"
+    },
+    "popup":{
+        "close_message":"Tanca el missatge",
+        "go_away":"No ho mostris més"
+    },
+    "search":{
+        "no_results":"No s'ha trobat cap coincidència"
+    },
+    "two_factor":{
+        "title":"Autenticació de dos factors",
+        "text":"Introdueix el codi que coincideixi amb la imatge següent per accedir a les teves aplicacions.",
+        "submit_code":"Envia codi",
+        "start":"Autentica ara",
+        "error":"Hi ha hagut un problema a l'enviar el codi. Torna-ho a provar.",
+        "required":{
+            "title":"Es requereix l'autenticació amb dos factors.",
+            "text":"Per publicar algunes de les teves aplicacions, has de proporcionar un codi únic."
+        }
+    },
+    "validation":{
+        "retry":"Reintenta",
+        "start":"Valida ara",
+        "required":{
+            "title":"Validació obligatòria",
+            "text":"No podem fer que totes les teves aplicacions estiguin disponibles fins que haguem recopilat més informació sobre el teu dispositiu."
+        },
+        "validating":{
+            "text":"Actualment estem validant. Espera si us plau\u2026",
+            "title":"Validació en progrés\u2026"
+        },
+        "complete":{
+            "title":"Validació correcta",
+            "text":"Has estat validat amb èxit."
+        },
+        "protocol":{
+            "title":"Estem intentant connectar amb AppsAnywhere des del teu dispositiu.",
+            "text":"Sempre que se't demani, fes un clic a 'Inicia l'aplicació' per permetre'ns validar el teu dispositiu.",
+            "button":"Llest!"
+        }
+    },
+    "welcome":{
+        "title":"Benvinguts a AppsAnywhere",
+        "first_time":"És la primera vegada que faig servir AppsAnywhere en aquest dispositiu.",
+        "already_used":"Ja he fet servir AppsAnywhere en aquest dispositiu!",
+        "go":"Comença"
+    },
+    "setup":{
+        "install":{
+            "step_one":"Accepta la descàrrega",
+            "step_two":"Instal·la AppsAnywhere",
+            "step_three":"Permet que s'iniciï"
+        },
+        "download":{
+            "done":"Fet",
+            "started":{
+                "copy":"<p><strong class=\"brand\">Només has de fer-ho el primer cop que visitis AppsAnywhere des d'un nou dispositiu.</strong><br /> Per entrar a AppsAnywhere, només has d'instal·lar el programa&hellip;</p><ol class=\"standout-list\"><li class=\"standout-list__item\"><span>La descàrrega hauria de començar automàticament.<br />(Si en 5 segons no ha començat, <strong><a href=\"{AppManagerLocation}\">fes un clic aquí</a></strong>).</span></li><li class=\"standout-list__item\"><span>Quan la descàrrega hagi finalitzat, fes un clic <strong class=\"brand\">&lsquo;Run&rsquo;</strong> per iniciar el programa.</span></li><li class=\"standout-list__item\"><span>Click <strong class=\"brand\">&lsquo;Next&rsquo;</strong> until <strong class=\"brand\">&lsquo;Done&rsquo;</strong> appears.</span></li></ol>",
+                "help":"Fes un clic a Fet un cop hagis completat la instal·lació."
+            }
+        }
+    },
+    "settings":{
+        "take_tour":"Fer el tour",
+        "preference":"Preferències"
+    },
+    "tour":{
+        "begin":"Comença",
+        "dismiss":"Ja n'ets un expert",
+        "skip_text":"Salta el tour",
+        "next-text":"Següent",
+        "previous-text":"Anterior",
+        "completed-text":"Fet",
+        "content":{
+            "welcome_text":"AppsAnywhere és el lloc des d'on pots accedir a totes les teves aplicacions.",
+            "validation_title":"Valida el teu dispositiu",
+            "validation_text":"Cada vegada que iniciïs sessió a AppsAnywhere, verificarem el teu dispositiu per veure a quines aplicacions tens accés.",
+            "aa_client_title":"Client AppsAnywhere",
+            "aa_client_text":"El client AppsAnywhere descobreix quines aplicacions pots accedir i ens ajuda a iniciar les teves aplicacions.",
+            "launching_title":"Inicia aplicacions",
+            "launching_text":"Per iniciar una aplicació, només has de situar el cursor al seu damunt i fer un clic a 'Inicia'",
+            "more_info_title":"Més informació",
+            "more_info_text":"Per trobar informació sobre com i des d'on es pot accedir a una aplicació, fes clic a 'Més informació'.",
+            "search_title":"Cerca",
+            "search_text":"Cerca ràpidament les teves aplicacions amb el quadre de cerca."
+        }
+    },
+    "discoverables":{
+        "title":"Millor consell!",
+        "show_tips":"Mostra'm consells",
+        "close":"OK",
+        "content":{
+            "search_text":"Ves ràpidament a la barra de cerca utilitzant 's'.",
+            "favourites_text":"Cerca les teves aplicacions preferides a la pestanya de preferits.",
+            "filters_text":"Fes un clic a l'etiqueta per esborrar el filtre."
+        }
+    },
+    "hints":{
+        "title":"Sabies que...?",
+        "show_tips":"Mostra'm consells",
+        "close":"Entesos!",
+        "content":{
+            "favorites_text":"Configura les aplicacions més utilitzades com a 'Preferits' situant-te damunt l'aplicació i fent un clic a l'estrella. Aquestes aplicacions apareixeran quan vagis a la pestanya 'Preferits' al menú de filtres.",
+            "layout_text":"Personalitza la teva visualització triant entre tres dissenys d'aplicacions. Ves al menú de preferències per triar la teva visualització preferida.",
+            "unavailable_text":"Si una aplicació està en gris  vol dir que no està disponible. Pots veure com accedir-hi, situant el cursor al damunt i fent un clic a 'Més informació'"
+        }
+    }
+}

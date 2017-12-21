@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CloseButton>Tanca</CloseButton>
+  <LaterButton>Després</LaterButton>
+  <UpdateNowButton>Actualitzar ara</UpdateNowButton>
+  <UpdateAvailable>Making sure you're up to date</UpdateAvailable>
+  <UpdateRequired>AppsAnywhere requereix una actualització</UpdateRequired>
+  <UpdateNowRequest>Feu clic a 'Actualitza ara' per iniciar el procés d'actualització</UpdateNowRequest>
+  <WaitForUpdate>Tingueu paciència mentre s'actualitza</WaitForUpdate>
+  <CheckingForUpdates>Cercant actualitzacions</CheckingForUpdates>
+  <DownloadingLatestVersion>Baixant l'actualització</DownloadingLatestVersion>
+  <UnpackingUpdate>Preparant l'actualització</UnpackingUpdate>
+  <UpdatingApplication>Aplicant l'actualització</UpdatingApplication>
+  <FinalisingUpdate>Actualització finalitzada</FinalisingUpdate>
+  <InvalidUpdateLocation>Ubicació de l'actualització no vàlida</InvalidUpdateLocation>
+  <InvalidUpdateMessageFormat>Error aplicant l'actualització [101]</InvalidUpdateMessageFormat>
+  <InvalidDownloadPackageStage>Error aplicant l'actualització [102]</InvalidDownloadPackageStage>
+  <InvalidUpdateServerResponse>Error aplicant l'actualització [103]</InvalidUpdateServerResponse>
+  <InvalidUpdateRequest>Error aplicant l'actualització [104]</InvalidUpdateRequest>
+  <InvalidUpdateResponse>Error aplicant l'actualització [105]</InvalidUpdateResponse>
+  <InvalidPackageLocation>Error aplicant l'actualització [106]</InvalidPackageLocation>
+  <InvalidVersion>Error aplicant l'actualització [107]</InvalidVersion>
+  <PackageLocationAccessDenied>Error aplicant l'actualització [108]</PackageLocationAccessDenied>
+  <InvalidPackageFileFormat>Error aplicant l'actualització [109]</InvalidPackageFileFormat>
+  <InvalidUpdateProcedure>Error aplicant l'actualització[110]</InvalidUpdateProcedure>
+  <InvalidServiceMessage>Error aplicant l'actualització [111]</InvalidServiceMessage>
+  <ValidationRequestReceived>Preparant per validar el dispositiu</ValidationRequestReceived>
+  <LaunchRequestReceived>Preparant per iniciar l'aplicació</LaunchRequestReceived>
+  <RetrieveMessageRequestReceived>Recuperant el missatge del Hub</RetrieveMessageRequestReceived>
+  <DeviceInfoGathered>Preparant per enviar informació del dispositiu</DeviceInfoGathered>
+  <LaunchingDependency>Instal·lació dels complements necessaris</LaunchingDependency>
+  <TokenFileDownloaded>Autorització rebuda</TokenFileDownloaded>
+  <ExecutingLaunchRequest>Sol·licitud d'autorització</ExecutingLaunchRequest>
+  <LaunchingApplication>Iniciant l'aplicació</LaunchingApplication>
+  <ValidatingSession>Iniciant la validació</ValidatingSession>
+  <SendingValidationData>Enviant la informació del dispositiu</SendingValidationData>
+  <ValidationDataSent>Informació del dispositiu enviada</ValidationDataSent>
+  <CheckLauncherInstalled>Cercant Cloudpaging Player</CheckLauncherInstalled>
+  <LauncherInstalled>Cloudpaging Player instal·lat</LauncherInstalled>
+  <LauncherInstallationError>Error instal·lant Cloudpaging player</LauncherInstallationError>
+  <LauncherInstallation>Instal·lant Cloudpaging Player</LauncherInstallation>
+  <LaunchBePatient>La teva aplicació estarà disponible en breu. Si us plau sigui pacient.</LaunchBePatient>
+  <SplashScreenStatus>Inicialitzant...</SplashScreenStatus>
+  <SessionValidated>Validació completa</SessionValidated>
+  <GatheringDeviceInfo>Validació completa</GatheringDeviceInfo>
+  <PreparingSccmLaunch>Preparant per iniciar SCCM</PreparingSccmLaunch>
+  <LaunchError>S'ha produït un error al iniciar l'aplicació</LaunchError>
+  <ValidationError>S'ha produït un error al validar el dispositiu</ValidationError>
+  <DataRequestError>No es pot contactar amb el servidor</DataRequestError>
+  <UpdatingLauncher>Actualitzant launcher</UpdatingLauncher>
+  <VersioningDataAquired>S'està recuperant la informació de l'actualització</VersioningDataAquired>
+  <LauncherUpdated>Actualitzant Launcher</LauncherUpdated>
+  <ValidatingSessionMainState>Validant la vostra sessió</ValidatingSessionMainState>
+  <LaunchingApplicationMainState>Iniciant l'aplicació</LaunchingApplicationMainState>
+  <ValidationErrorMainState>Error de validació</ValidationErrorMainState>
+  <LaunchErrorMainState>Error en inciar</LaunchErrorMainState>
+  <LaunchAdditionalInformation>Alguna cosa ha anat malament</LaunchAdditionalInformation>
+  <ValidationAdditionalInformation>Alguna cosa ha anat malament</ValidationAdditionalInformation>
+  <ContactSupportRequired>Si necessiteu ajuda, poseu-vos en contacte amb suport</ContactSupportRequired>
+  <LauncherInstallationMainState>Preparant tot</LauncherInstallationMainState>
+  <LauncherUpdateMainState>Preparant tot</LauncherUpdateMainState>
+  <LauncherInstallationErrorMainState>Error en inicar</LauncherInstallationErrorMainState>
+  <LauncherAdditionalInformation>Alguna cosa ha anat malament</LauncherAdditionalInformation>
+  <HubCommunicationErrorMainState>Error actualitzant</HubCommunicationErrorMainState>
+  <HubCommunicationAdditionalInformation>Alguna cosa ha anat malament</HubCommunicationAdditionalInformation>
+  <HubCommunicationError>Error</HubCommunicationError>
+  <RestartRequiredAdditionalInformation>Reinicieu l'ordinador per finalitzar l'actualització</RestartRequiredAdditionalInformation>
+  <RestartRequiredOnLaunchAdditionalInformation>Reinicieu l'ordinador per finalitzar la instal·lació del Launcher</RestartRequiredOnLaunchAdditionalInformation>
+  <RestartRequired>Necessiteu reiniciar</RestartRequired>
+  <UpdatesApplied>Actualitzacions aplicades</UpdatesApplied>
+  <UpdaterCheckingCompatibility>Comprovació de la compatibilitat</UpdaterCheckingCompatibility>
+  <UpdaterPreparingForUpdate>Preparant per actualitzar</UpdaterPreparingForUpdate>
+  <UpdaterStartingUpdate>Iniciant l'actualització</UpdaterStartingUpdate>
+  <UpdaterMessageContactSupport>Poseu-vos en contacte amb suport si segueix veient aquest missatge</UpdaterMessageContactSupport>
+  <UpdaterMainUpdating>Actualitzant AppsAnywhere</UpdaterMainUpdating>
+  <UpdaterMainUpdateFailed>Error en l'actualització de AppsAnywhere</UpdaterMainUpdateFailed>
+  <InitializationVmwareCheck>Cercant VMware client status...</InitializationVmwareCheck>
+  <InitializationVmwareInstalling>Instal·lant client VMware...</InitializationVmwareInstalling>
+  <InitializationVmwareError>Error al instal·lar client VMware</InitializationVmwareError>
+  <LaunchVmwarePreparingLaunch>Preparació de les dades requerides...</LaunchVmwarePreparingLaunch>
+  <InitializationParallelsCheck>Cercant Parallels client status...</InitializationParallelsCheck>
+  <InitializationParallelsInstalling>Instal·lant client Parallels...</InitializationParallelsInstalling>
+  <InitializationParallelsError>Error al instal·lar client Parallels</InitializationParallelsError>
+</LanguageData>
