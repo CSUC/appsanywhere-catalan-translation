@@ -354,11 +354,16 @@
             "done":"Fet",
             "started":{
                 "copy":"<p><strong class=\"brand\">Només has de fer-ho el primer cop que visitis AppsAnywhere des d'un nou dispositiu.</strong><br /> Per entrar a AppsAnywhere, només has d'instal·lar el programa&hellip;</p><ol class=\"standout-list\"><li class=\"standout-list__item\"><span>La descàrrega hauria de començar automàticament.<br />(Si en 5 segons no ha començat, <strong><a href=\"{AppManagerLocation}\">fes un clic aquí</a></strong>).</span></li><li class=\"standout-list__item\"><span>Quan la descàrrega hagi finalitzat, fes un clic <strong class=\"brand\">&lsquo;Run&rsquo;</strong> per iniciar el programa.</span></li><li class=\"standout-list__item\"><span>Click <strong class=\"brand\">&lsquo;Next&rsquo;</strong> until <strong class=\"brand\">&lsquo;Done&rsquo;</strong> appears.</span></li></ol>",
-                "help":"Fes un clic a Fet un cop hagis completat la instal·lació.",
-		"title": "La seva descàrrega a començat..."
+                "help":"Fes un clic a Fet un cop hagis completat la instal·lació."
             }
         }
     },
+    "download":{
+	"started":{
+		"title": "La seva descàrrega a començat..."
+	}
+    }, 
+
     "settings":{
         "take_tour":"Fer el tour",
         "preference":"Preferències"
