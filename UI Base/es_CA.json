@@ -6,7 +6,10 @@
 	},
 	"action": {
 		"cancel": "Cancel·la",
+		"clone": "Clona",
 		"close": "Tanca",
+		"confirm_deletion": "Confirmeu la supressió",
+		"delete": "Elimina",
 		"done": "Fet",
 		"download": "Descarrega",
 		"go": "Ves",
@@ -17,26 +20,38 @@
 		"ok": "D'acord",
 		"previous": "Anterior",
 		"run": "Executa",
+		"save_and_select": "Desa i selecciona",
+		"select": "Selecciona",
 		"submit_2fa": "Envia 2FA",
 		"validate": "Valida",
 		"visit_website": "Visita el lloc web"
 	},
 	"ajax": {
 		"delete_list_error": "S'ha produït un problema en suprimir la llista.",
+		"disassociate_list_error": "Hi ha hagut un problema en desvincular la llista associada anteriorment amb aquest codi de curs.",
 		"display_list_error": "S'ha produït un problema en mostrar la llista.",
+		"error_adding_app": "S'ha produït un problema en afegir l'aplicació",
+		"error_removing_app": "S'ha produït un problema en eliminar l'aplicació",
 		"form_error": "Hi ha hagut un problema a l'enviar el formulari. Torna-ho a provar.",
 		"form_success": "Completat amb èxit.",
+		"from_list": "de la llista.",
 		"get_list_error": "S'ha produït un problema en recuperar informació sobre la llista.",
 		"get_lists_error": "S'ha produït un problema en recuperar les llistes.",
 		"get_share_data_error": "S'ha produït un problema en carregar dades d'aquesta llista.",
 		"get_share_url_error": "S'ha produït un problema en obtenir l'enllaç compartit.",
+		"identify_associated_list_error": "Hi ha hagut un problema en identificar la llista associada actualment amb aquest codi de curs.",
 		"link_error": "Hi ha hagut un problema al carregar l'enllaç. Torna-ho a provar.",
 		"remove_list_error": "S'ha produït un problema en eliminar la llista.",
-		"save_list_error": "S'ha produït un problema al desar la llista."
+		"save_availability_error": "S'ha produït un problema en actualitzar la disponibilitat de l'aplicació.",
+		"save_availability_error_exam_not_ready": "Actualment, l'aplicació que heu intentat actualitzar no està preparada per a l'examen. Poseu-vos en contacte amb el servei d'assistència per obtenir ajuda.",
+		"save_list_error": "S'ha produït un problema al desar la llista.",
+		"to_list": "a la llista."
 	},
 	"app": {
 		"launch": {
-			"other": "Altres opcions d'execució"
+			"other": "Altres opcions d'execució",
+			"view": "Veure",
+			"view_full": "Veure aplicació"
 		},
 		"less_info_button": "Menys informació",
 		"list": {
@@ -106,7 +121,12 @@
 	},
 	"app-list": {
 		"add": "Afegeix una llista nova",
+		"associated_with_course": "Aquesta llista d'aplicacions s'ha associat amb el curs",
 		"description": "Aquí podeu conservar les llistes d'aplicacions relacionades que voldríeu compartir amb altres usuaris.",
+		"in_lms": "al vostre sistema de gestió de l’aprenentatge.",
+		"lti": "Curs",
+		"lti_confirm_delete": "al vostre sistema de gestió de l'aprenentatge, esteu segur que voleu suprimir aquesta llista?",
+		"successful_link": "Aquesta llista d'aplicacions s'ha vinculat correctament amb el curs",
 		"title": "Les meves llistes d'aplicacions"
 	},
 	"app_list_confirmation": {
@@ -235,6 +255,7 @@
 		"sccmappv_install_desc": "<p>El mètode d'entrega d'instal·lació SCCM/App-V activarà la instal·lació completa del recurs seleccionat al teu dispositiu Windows.</p><p>El procés d'instal·lació serà totalment automatitzat i no hauràs de fer res més que esperar que el recurs estigui disponible permanentment a la màquina.</p>",
 		"secure_download": "Descàrrega segura",
 		"secure_download_desc": "<p>El mètode d'entrega de la transferència segura iniciarà la descàrrega d'un fitxer al teu navegador que (generalment) acabarà a la carpeta de descàrregues del teu dispositiu, depenent de la configuració del navegador.</p><p>Si estàs iniciant una aplicació, podria ser que el fitxer fos l'instal·lador d'aquesta aplicació. Si és així, pots instal·lar-lo tu mateix/a al teu dispositiu. Consulta la descripció de l'aplicació per obtenir més informació sobre què fer amb el fitxer proporcionat.</p><p>Aquestes descàrregues estan disponibles només quan estàs autenticat a AppsAnywhere.</p>",
+		"virtual_desktop_wvd": "Windows Virtual Desktop",
 		"vmware_horizon_cloudpaged": "VMWare Horizon: Cloudpaged",
 		"vmware_horizon_cloudpaged_desc": "<p>El mètode d'entrega de l'aplicació remota de VMware Horizon et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, normalment allotjat a la institució.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
 		"vmware_horizon_desktop": "VMWare Horizon: Escriptori",
@@ -242,7 +263,8 @@
 		"vmware_horizon_native": "VMWare Horizon: Natiu",
 		"vmware_horizon_native_desc": "<p>El mètode d'entrega de l'aplicació remota de VMware Horizon et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, normalment allotjat a la institució.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el dispositiu no és físicament  capaç d'executar aquesta aplicació.</p>",
 		"windows_executable": "Windows executable",
-		"windows_executable_desc": "<p>El mètode d'entrega executable de Windows activarà el llançament (i possiblement també la instal·lació) de l'aplicació al teu dispositiu Windows.</p><p>Tot el procés serà totalment automatitzat i no has de fer res més que esperar a que l'aplicació es posi en marxa.</p>"
+		"windows_executable_desc": "<p>El mètode d'entrega executable de Windows activarà el llançament (i possiblement també la instal·lació) de l'aplicació al teu dispositiu Windows.</p><p>Tot el procés serà totalment automatitzat i no has de fer res més que esperar a que l'aplicació es posi en marxa.</p>",
+		"windows_virtual_desktop_wvd_desc": "<p> El mètode de lliurament de l'escriptori virtual de Windows us proporcionarà accés a una aplicació que s'executa en un dispositiu remot, normalment allotjat al lloc de l'organització.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accediu no està permès fora de l'organització o requereix accés a recursos que no estan disponibles al vostre dispositiu.</p><p>També es pot utilitzar si el vostre dispositiu no és físicament capaç d'executar l'aplicació concreta.</p>"
 	},
 	"dependency": {
 		"have": "Ja ho tinc",
@@ -310,6 +332,8 @@
 	"filter": {
 		"all_available": "Totes disponibles",
 		"all_available_description": "- Nombre d'aplicacions disponibles:",
+		"all_provisioned": "Totes",
+		"all_provisioned_description": "- Nombre d'aplicacions, disponibles i no disponibles:",
 		"apps": "Aplicacions",
 		"apps_description": "- Nombre d'aplicacions:",
 		"categories": {
@@ -375,6 +399,11 @@
 		"show_tips": "Mostra'm consells",
 		"title": "Sabies que...?"
 	},
+	"language": {
+		"error": {
+			"load": "No hem pogut carregar l'idioma seleccionat"
+		}
+	},
 	"launching": {
 		"direct_download": {
 			"button": "Ho tinc!",
@@ -404,6 +433,10 @@
 		"eula_acronym": "(EULA)",
 		"eula_message": "En iniciar la sessió, accepteu els termes del document",
 		"password": "Contrasenya",
+		"placeholder": {
+			"password": "Contrasenya",
+			"username": "Usuari"
+		},
 		"redirecting": "Redirigint",
 		"sign_in": "Inicia sessió",
 		"sign_in_or": "o",
@@ -412,6 +445,61 @@
 		"sign_in_via_username": "Usuari i Contrasenya",
 		"signing_in": "Inici de sessió",
 		"username": "Nom d'usuari"
+	},
+	"lti": {
+		"apps": {
+			"found": "Encara no s'ha seleccionat cap aplicació per a aquest curs. | S'ha trobat 1 aplicació per a aquest curs | S'han trobat {count} aplicacions per a aquest curs",
+			"loading": "Carregant les aplicacions",
+			"missing": "Hem detectat que falten algunes aplicacions d'aquesta llista. Poseu-vos en contacte amb l'administrador del vostre curs si aquest problema persisteix.",
+			"view_all": "Veure totes les aplicacions"
+		},
+		"error": {
+			"course_code": "El codi d'aquest curs és buit, però és necessari per continuar.",
+			"course_not_found": "No s'ha pogut trobar el curs especificat.",
+			"no_administration": "No teniu permís per crear una llista d'aplicacions per a aquest curs.",
+			"no_course_code": "El curs especificat no té un codi de curs vàlid.",
+			"try_reloading": "Si torneu a carregar aquesta pàgina i no es soluciona el problema, poseu-vos en contacte amb l'administrador del vostre curs.",
+			"unauthorised": "Ho sentim, no tens permís per veure aquesta pàgina."
+		},
+		"lists": {
+			"associate": {
+				"already_associated": {
+					"title": "Llistes ja associades a un altre curs"
+				},
+				"currently_selected": "Aquesta és la llista seleccionada actualment.",
+				"title": "Associa la llista d'aplicacions",
+				"update": "Associeu una llista d'aplicacions diferent"
+			},
+			"code_description": "Aquesta llista d'aplicacions s'ha associat amb el curs següent al vostre sistema de gestió de l'aprenentatge.",
+			"create": "Creeu una llista nova",
+			"creating": {
+				"checking_for_updates": "Comprovant les actualitzacions de la llista",
+				"list_apps_updated": "S'han actualitzat les aplicacions de la llista associada a aquest curs",
+				"list_updated": "La llista associada a aquest curs s'ha actualitzat a  \"{list_name}\"",
+				"stop_checking_for_updates": "Deixeu de comprovar"
+			},
+			"edit": "Edita aquesta llista",
+			"editing": {
+				"list_deleted": "La llista associada a aquest curs s'ha eliminat"
+			},
+			"loading": "S'estan carregant les llistes d'aplicacions",
+			"no_apps": {
+				"button": "Afegiu aplicacions ara",
+				"copy": "Les aplicacions que afegiu a aquesta llista apareixeran aquí.",
+				"title": "No s'ha trobat cap aplicació en aquesta llista."
+			},
+			"none_found": "Ho sentim, no hem pogut trobar cap llista que es pugui associar a aquest curs.",
+			"none_linked": {
+				"button": "Associa la llista d'aplicacions",
+				"copy": "Associa una llista amb aquest curs per mostrar les aplicacions.",
+				"title": "No hi ha cap llista d'aplicacions associada"
+			},
+			"selected": "Seleccionat"
+		},
+		"timeout": {
+			"description": "La vostra sessió s'ha esgotat, si aquest problema persisteix després d'actualitzar la pàgina, poseu-vos en contacte amb l'administrador.",
+			"title": "Temps d’espera de la sessió"
+		}
 	},
 	"manager": {
 		"missing": {
@@ -436,6 +524,26 @@
 	"popup": {
 		"close_message": "Tanca el missatge",
 		"go_away": "No ho mostris més"
+	},
+	"pre_launch": {
+		"of": "de",
+		"step": "Pas",
+		"wvd": {
+			"add_workspace": "Feu clic al botó Afegeix per afegir a l'espai de treball.",
+			"click_add_workspace": "Feu clic al botó Afegeix espai de treball.",
+			"click_copy_url": "Feu clic a Copia l'URL a continuació i enganxeu-lo a la pantalla Afegeix àrea de treball que es mostra a continuació.",
+			"click_launch_button": "Feu clic al botó següent per iniciar el client d'escriptori virtual.",
+			"click_workspaces": "Feu clic a la pestanya d'espais de treball.",
+			"copy_url": "Copia l'URL",
+			"find_desktop": "Cerqueu l'escriptori anomenat <b>{DesktopName}</b> i feu doble clic per iniciar-lo.",
+			"launch_app": "Un cop estiguis a l'escriptori virtual, fes servir AppsAnywhere per iniciar-lo {AppName}.",
+			"repeat_credentials": "És possible que tingueu d'iniciar la sessió a l'escriptori amb les mateixes credencials.",
+			"sign_in_university_account": "Inicieu la sessió amb el vostre compte universitari.",
+			"university_account": "Inicieu la sessió amb el vostre compte universitari.",
+			"vd_required": "Aquesta aplicació s'ha de llançar en un escriptori virtual",
+			"warn_launch_button": "Us mostrarem un botó per iniciar l'escriptori virtual en un moment. És possible que tingueu d'iniciar la sessió a l'escriptori amb les vostres credencials universitàries.",
+			"warn_sign_in_university_account": "Quan s'obre el client, és possible que se us demani que inicieu sessió amb el vostre compte de la universitat."
+		}
 	},
 	"preferences": {
 		"language": "Idioma",
