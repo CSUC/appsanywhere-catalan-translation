@@ -1,647 +1,839 @@
 {
 	"_metadata": {
 		"display_name": "Català (Espanya)",
-		"locale_code": "es_CA",
+		"locale_code": "ca_ES",
 		"locale_code_short": "ca"
 	},
-	"action": {
-		"cancel": "Cancel·la",
-		"clone": "Clona",
-		"close": "Tanca",
-		"confirm_deletion": "Confirmeu la supressió",
-		"delete": "Elimina",
-		"done": "Fet",
-		"download": "Descarrega",
-		"go": "Ves",
-		"got_it": "Llest!",
-		"install": "Instal·la",
-		"launch": "Inicia",
-		"next": "Següent",
-		"ok": "D'acord",
-		"previous": "Anterior",
-		"run": "Executa",
-		"save_and_select": "Desa i selecciona",
-		"select": "Selecciona",
-		"submit_2fa": "Envia 2FA",
-		"validate": "Valida",
-		"visit_website": "Visita el lloc web"
+	"form": {
+		"validation": {
+			"required_field_label": "Aquest camp és obligatori",
+			"page_title_error_prefix": "Error:",
+			"error_summary_title": "S’ha produït un problema"
+		}
 	},
-	"ajax": {
-		"delete_list_error": "S'ha produït un problema en suprimir la llista.",
-		"disassociate_list_error": "Hi ha hagut un problema en desvincular la llista associada anteriorment amb aquest codi de curs.",
-		"display_list_error": "S'ha produït un problema en mostrar la llista.",
-		"error_adding_app": "S'ha produït un problema en afegir l'aplicació",
-		"error_removing_app": "S'ha produït un problema en eliminar l'aplicació",
-		"form_error": "Hi ha hagut un problema a l'enviar el formulari. Torna-ho a provar.",
-		"form_success": "Completat amb èxit.",
-		"from_list": "de la llista.",
-		"get_list_error": "S'ha produït un problema en recuperar informació sobre la llista.",
-		"get_lists_error": "S'ha produït un problema en recuperar les llistes.",
-		"get_share_data_error": "S'ha produït un problema en carregar dades d'aquesta llista.",
-		"get_share_url_error": "S'ha produït un problema en obtenir l'enllaç compartit.",
-		"identify_associated_list_error": "Hi ha hagut un problema en identificar la llista associada actualment amb aquest codi de curs.",
-		"link_error": "Hi ha hagut un problema al carregar l'enllaç. Torna-ho a provar.",
-		"remove_list_error": "S'ha produït un problema en eliminar la llista.",
-		"save_availability_error": "S'ha produït un problema en actualitzar la disponibilitat de l'aplicació.",
-		"save_availability_error_exam_not_ready": "Actualment, l'aplicació que heu intentat actualitzar no està preparada per a l'examen. Poseu-vos en contacte amb el servei d'assistència per obtenir ajuda.",
-		"save_list_error": "S'ha produït un problema al desar la llista.",
-		"to_list": "a la llista."
+	"modal": {
+		"confirm": "Continua",
+		"cancel": "Tanca",
+		"close_dialog": "Tanca el quadre de diàleg"
 	},
-	"app": {
-		"launch": {
-			"other": "Altres opcions d'execució",
-			"view": "Veure",
-			"view_full": "Veure aplicació"
+	"carousel": {
+		"previous": "Element anterior",
+		"next": "Element següent",
+		"selected_item": "Element {index} de {count}",
+		"indicator_label": "Element {index}",
+		"indicator_label_active": "Element {index} (element actual)",
+		"start_animation": "Inicia l’animació",
+		"stop_animation": "Atura l’animació"
+	},
+	"portal": {
+		"page_titles": {
+			"all_applications": "Totes les aplicacions",
+			"app_list": {
+				"create": "Crea una llista d'aplicacions",
+				"edit": "Edita la llista d’aplicacions {name}",
+				"import": "Importa la llista d’aplicacions {name}",
+				"view": "Llista d’aplicacions {name}"
+			},
+			"eula": "Contractes de llicència d’usuari final",
+			"login": "Inicia la sessió"
 		},
-		"less_info_button": "Menys informació",
-		"list": {
-			"add": "Afegir",
-			"added_to_list": "Afegit a la llista",
-			"from_list": "de la llista",
-			"remove": "Elimina",
-			"to_list": "a la llista"
+		"app": {
+			"name": "{app} de {vendor}",
+			"launch": {
+				"launch": "Inicia",
+				"launch_accessible": "Inicia {app}",
+				"show_additional": "Mostra opcions d'inici addicionals per a {app}",
+				"unavailable": "No disponible",
+				"unavailable_accessible": "Aquesta aplicació no està disponible"
+			},
+			"launch_unavailable": {
+				"why": "Per què?",
+				"why_accessible": "Descobreix per què"
+			}
+		},
+		"app_collections": {
+			"view_all_of": "Veure-ho tot a {collection}",
+			"view_all_applications": "Veure totes les aplicacions",
+			"app_lists": "Llistes d’aplicacions",
+			"loading": "S’estan carregant col·leccions d’aplicacions"
+		},
+		"app_collection": {
+			"loading": "S'estan carregant aplicacions",
+			"recent": {
+				"label": "Recents",
+				"none_found": {
+					"title": "Actualment no tens cap aplicació recent",
+					"text": "La llista d’aplicacions recents s'omplirà a mesura que vagis utilitzant AppsAnywhere."
+				}
+			},
+			"favorites": {
+				"label": "Preferits",
+				"none_found": {
+					"title": "Actualment no tens cap aplicació preferida",
+					"text": "Les aplicacions que marquis com a preferides a AppsAnywhere es mostraran aquí per accedir-hi fàcilment."
+				}
+			},
+			"popular": {
+				"label": "Populars",
+				"none_found": {
+					"title": "Actualment no hi ha cap aplicació popular",
+					"text": "A mesura que més persones facin servir AppsAnywhere, les aplicacions populars es mostraran aquí."
+				}
+			},
+			"new": {
+				"label": "Noves",
+				"none_found": {
+					"title": "Actualment no hi ha cap aplicació per mostrar",
+					"text": "Quan s’afegeixin aplicacions noves, es mostraran aquí."
+				}
+			}
+		},
+		"app_grid": {
+			"loading": "S'estan carregant aplicacions",
+			"apps": {
+				"show_more": "Mostra’n més",
+				"none_found": {
+					"title": "No s’ha trobat cap aplicació",
+					"text": "Pots provar una altra selecció o fer una cerca."
+				}
+			},
+			"sort_by": "Ordena per",
+			"toggle_grid_width": "Alterna l’amplada de la quadrícula",
+			"filters": {
+				"loading": "S'estan carregant els filtres",
+				"home": "Inici",
+				"all_apps": "Totes les aplicacions",
+				"categories": "Categories",
+				"app_lists": {
+					"title": "Llistes d’aplicacions",
+					"owned": "Les teves llistes d’aplicacions",
+					"imported": "Llistes d’aplicacions importades",
+					"create": "Crea una llista"
+				},
+				"label": "Filtres"
+			},
+			"custom_search": {
+				"title": "S’estan mostrant les aplicacions \"{term}",
+				"text": "Només es mostren les aplicacions que coincideixen amb aquest terme de cerca.",
+				"show_all": "Mostra totes les aplicacions."
+			},
+			"error": {
+				"not_responding": "S’ha produït un error en carregar les aplicacions. Torna-ho a provar aviat."
+			}
+		},
+		"app_launch": {
+			"launching": "S’està iniciant l’aplicació",
+			"from_vendor": "de {vendor}",
+			"as_a_dependency_of": "com a dependència de {app}",
+			"validation_required": {
+				"title": "Es requereix validació",
+				"text": "Aquesta aplicació necessita informació perquè el client d’AppsAnywhere garanteixi que aquesta aplicació es pot iniciar. Se’t guiarà pel procés i, en la majoria dels casos, es completarà automàticament.",
+				"cancel": "Cancel·la",
+				"begin_validation": "Comença la validació"
+			},
+			"two_factor": {
+				"title": "Aquesta aplicació requereix autenticació de dos factors",
+				"text": "Introdueix el codi que coincideixi amb la imatge que hi ha sota del teu dispositiu de dos factors per continuar.",
+				"loading": "S’està carregant la imatge de dos factors",
+				"form": {
+					"image_alt": "Aquesta imatge conté una selecció de números necessaris per continuar aquest inici. Ara mateix, no està disponible en un format més accessible.",
+					"refresh": "Actualitza la imatge",
+					"code": {
+						"label": "Codi d’un sol ús"
+					},
+					"buttons": {
+						"submit": "Envia el codi",
+						"cancel": "Cancel·la"
+					}
+				}
+			},
+			"dependencies": {
+				"title": "Dependències de l’aplicació",
+				"automatic_text": "L’aplicació que estàs a punt d’iniciar té dependències. En iniciar aquesta aplicació, s’iniciaran automàticament les dependències que figuren més avall.",
+				"manual_text": "L’aplicació que estàs a punt d’iniciar té dependències. Un cop s’hagin iniciat totes les aplicacions que es mostren aquí, podràs continuar.",
+				"loading": "S’estan carregant les dependències",
+				"launched": "{app} s’ha iniciat",
+				"cancel": "Cancel·la",
+				"continue": "Continua"
+			},
+			"azure_virtual_desktop": {
+				"title": "Aquesta aplicació s’ha d’iniciar en un escriptori virtual",
+				"text": "Inicia el client d’escriptori virtual per continuar",
+				"launch_client": "Inicia el client d'escriptori virtual",
+				"cancel": "Cancel·la",
+				"done": "Fet",
+				"steps": {
+					"win_native": {
+						"launch_client": {
+							"text": "Inicia el client d'escriptori virtual per començar i et proporcionarem més instruccions aquí.",
+							"button_text": "Inicia el client d'escriptori virtual"
+						},
+						"sign_in_client": "Quan s’obri el client, pot ser que hagis d’iniciar la sessió amb el teu compte d’universitat.",
+						"desktop": "Troba l’escriptori anomenat {name} i fes-hi doble clic per iniciar-lo.",
+						"sign_in_desktop": "És possible que hagis d’iniciar sessió a l'escriptori fent servir les mateixes credencials.",
+						"launch": "Un cop siguis a l'escriptori virtual, fes servir AppsAnywhere per iniciar {app}."
+					},
+					"mac_native": {
+						"launch_client": {
+							"text": "Inicia el client d'escriptori virtual per començar i et proporcionarem més instruccions aquí.",
+							"button_text": "Inicia el client d'escriptori virtual"
+						},
+						"workspaces": "Fes clic a la pestanya Workspaces (àrees de treball).",
+						"add_workspace": "Fes clic al botó Add workspace (afegeix àrea de treball).",
+						"feed": {
+							"text": "Copia l'URL del feed que hi ha a sota i enganxa’l a la pantalla Add workspace (Afegeix àrea de treball).",
+							"button_text": "Copia l’URL del feed"
+						},
+						"save_workspace": "Fes clic al botó Add (Afegeix) per afegir el workspace (àrea de treball).",
+						"sign_in_client": "Inicia la sessió amb el teu compte d’universitat.",
+						"desktop": "Troba l’escriptori anomenat {name} i fes-hi doble clic per iniciar-lo.",
+						"sign_in_desktop": "És possible que hagis d’iniciar sessió a l'escriptori fent servir les mateixes credencials.",
+						"launch": "Un cop siguis a l'escriptori virtual, fes servir AppsAnywhere per iniciar {app}."
+					},
+					"html5": {
+						"launch_client": {
+							"text": "Inicia el client d'escriptori virtual per començar i et proporcionarem més instruccions aquí.",
+							"button_text": "Inicia el client d'escriptori virtual"
+						},
+						"sign_in_client": "Quan s’obri el client, pot ser que hagis d’iniciar la sessió amb el teu compte d’universitat.",
+						"desktop": "Troba l’escriptori anomenat {name} i fes-hi doble clic per iniciar-lo.",
+						"sign_in_desktop": "És possible que hagis d’iniciar sessió a l'escriptori fent servir les mateixes credencials.",
+						"launch": "Un cop siguis a l'escriptori virtual, fes servir AppsAnywhere per iniciar {app}."
+					}
+				}
+			},
+			"success": {
+				"launched": "Iniciada",
+				"title": "L’inici s’ha efectuat correctament",
+				"text": "La teva aplicació ja hauria d’estar iniciada.",
+				"launch_methods": {
+					"website": {
+						"backup_text": "Si el lloc web no s’ha obert, és possible que el teu navegador hagi bloquejat la finestra emergent. Pots tornar-ho a provar aquí.",
+						"button_text": "Torna-ho a provar"
+					},
+					"download": {
+						"backup_text": "Si la baixada no s’ha iniciat, pots tornar-ho a provar aquí.",
+						"button_text": "Torna-ho a provar"
+					},
+					"protocol": {
+						"backup_text": "Si la teva aplicació no s’ha iniciat, pots tornar-ho a provar aquí.",
+						"button_text": "Torna-ho a provar"
+					}
+				},
+				"close": "Tanca"
+			},
+			"fail": {
+				"failed": "No s’ha pogut iniciar",
+				"title": "No s’ha pogut iniciar",
+				"text": "No s’ha pogut iniciar la teva aplicació.",
+				"unavailable": {
+					"text": "Malauradament, hi ha un o diversos problemes, cosa que fa que aquesta aplicació no estigui disponible.",
+					"find_out_more": "Descobreix per què"
+				},
+				"contact_support": "Contacta amb l’equip d’assistència",
+				"close": "Tanca"
+			},
+			"error": {
+				"not_responding": "S’ha produït un error inesperat en provar d’iniciar l’aplicació.",
+				"app_unavailable": "L’aplicació que has provat d’iniciar no està disponible.",
+				"validation_required": "No hem pogut completar la validació, pas necessari per iniciar aquesta aplicació.",
+				"client_required": "Cal el client d’AppsAnywhere per iniciar aquesta aplicació.",
+				"2fa_required": "No hem pogut completar l’autenticació de dos factors, pas necessari per iniciar aquesta aplicació.",
+				"dependencies": "Aquesta aplicació requereix dependències per iniciar-se, però no hem pogut determinar quines."
+			}
+		},
+		"app_lists": {
+			"loading": "S’estan carregant les llistes d’aplicacions",
+			"none_found": {
+				"title": "Actualment no tens cap llista d'aplicació",
+				"text": "Les llistes d’aplicacions et permeten desar col·leccions d’aplicacions per accedir-hi fàcilment o compartir amb altres persones.",
+				"create_one_now": "Crea una llista d’aplicacions ara"
+			},
+			"create": {
+				"title": "Crea una llista d’aplicacions",
+				"subtitle_with_course": "Associada al curs de sistema de gestió de l'aprenentatge (LMS) {code}",
+				"intro": "Les llistes d’aplicacions et permeten recopilar aplicacions en una llista personalitzada i compartir-les amb altres persones.",
+				"form": {
+					"list_name": {
+						"label": "Nom de la llista",
+						"help": "Les persones amb qui comparteixes la llista podran veure el nom que triïs per a la teva aplicació.",
+						"validation": {
+							"required": "Introdueix un nom per a la llista perquè es pugui identificar més tard."
+						}
+					},
+					"save": "Crea una llista"
+				},
+				"error": {
+					"invalid_course": "El curs seleccionat no és vàlid. Pots continuar creant una llista nova, però no s'associarà a cap curs. Si creus que es tracta d’un error, torna-ho a provar aviat.",
+					"invalid_course_permissions": "No tens privilegis d’administrador per al curs seleccionat. Pots continuar creant una llista nova, però no s'associarà a cap curs. Si creus que es tracta d’un error, torna-ho a provar aviat.",
+					"associated_app_list": "No hem pogut carregar els detalls de cap llista d’aplicacions ja associada al curs seleccionat. Pots continuar creant una llista nova, però no s'associarà a cap curs. De manera alternativa, tornar-ho a provar aviat.",
+					"not_responding": "No s’ha pogut desar la llista d’aplicacions. Torna-ho a provar aviat."
+				},
+				"info": {
+					"already_associated": "El curs seleccionat ja està associat a la llista d’aplicacions {name}. Si crees una llista nova associada a aquest curs, s'anul·larà l'associació de {name}."
+				},
+				"success": "La llista d’aplicacions \"{name}\" s’ha creat correctament"
+			},
+			"view": {
+				"loading": "S’estan carregant els detalls de la llista d’aplicacions",
+				"loading_apps": "S'estan carregant aplicacions",
+				"app_count": "1 aplicació | {count} aplicacions",
+				"associated_course": "Associada al curs de sistema de gestió de l’aprenentatge següent: {course}",
+				"share": "Comparteix llista",
+				"edit": "Edita llista",
+				"missing_apps": "Hem detectat que falten algunes aplicacions a la llista i pot ser que no vegis totes les aplicacions que hauries de poder veure. Contacta amb l’administrador del curs si el problema continua.",
+				"none_found": {
+					"title": "No s’ha trobat la llista d’aplicacions",
+					"text": "No hem pogut trobar la llista d’aplicacions que cerques."
+				},
+				"no_apps": {
+					"view": {
+						"title": "No hi ha cap aplicació associada",
+						"text": "Actualment no hi ha cap aplicació en aquesta llista. Per començar, edita aquesta llista i cerca aplicacions per afegir."
+					},
+					"edit": {
+						"title": "No hi ha cap aplicació associada",
+						"text": "Actualment no hi ha cap aplicació en aquesta llista. Per començar, cerca una aplicació més amunt."
+					}
+				},
+				"error": {
+					"not_responding": "S’ha produït un error en carregar la llista d’aplicacions. Torna-ho a provar aviat.",
+					"apps_not_responding": "S’ha produït un error en carregar les aplicacions d'aquesta llista d’aplicacions. Torna-ho a provar aviat."
+				}
+			},
+			"edit": {
+				"title": "Edita la llista d’aplicacions",
+				"app_list_name": "Nom de la llista d’aplicacions",
+				"delete": "Elimina la llista",
+				"remove": "Suprimeix la llista",
+				"done": "Fet",
+				"save": "Desa",
+				"search_box": {
+					"label": "Troba aplicacions per afegir"
+				},
+				"app": {
+					"add_short": "Afegeix",
+					"add": "Afegeix l’aplicació a la llista",
+					"remove_short": "Suprimeix",
+					"remove": "Suprimeix l’aplicació de la llista",
+					"lms": {
+						"lms": "Sistema de gestió de l'aprenentatge (LMS)",
+						"exam": "Examen"
+					}
+				},
+				"error": {
+					"name": "S’ha produït un error en actualitzar el nom d’aquesta llista d’aplicacions. Torna-ho a provar aviat.",
+					"add_app": "S’ha produït un error en afegir l’aplicació seleccionada a la llista d’aplicacions. Torna-ho a provar aviat.",
+					"remove_app": "S’ha produït un error en suprimir l’aplicació seleccionada de la llista d’aplicacions. Torna-ho a provar aviat.",
+					"update_availability": "S’ha produït un error en actualitzar la disponibilitat de l’aplicació seleccionada. Torna-ho a provar aviat."
+				}
+			},
+			"share": {
+				"instructions": "Per compartir aquesta llista amb un altre usuari, copia l’enllaç que hi ha més avall.",
+				"loading": "S’està carregant l’enllaç per compartir.",
+				"copy": {
+					"button": "Copia l’enllaç",
+					"success": "S’ha copiat"
+				},
+				"error": {
+					"not_responding": "No hem pogut obtenir l’enllaç per compartir aquesta llista. Torna-ho a provar aviat."
+				}
+			},
+			"delete": {
+				"confirmation": {
+					"title": "Elimina la llista d'aplicacions \"{title}\"",
+					"body": "Confirmes que vols eliminar aquesta llista d’aplicacions?",
+					"cancel": "Cancel·la",
+					"confirm": "Elimina la llista d’aplicacions"
+				},
+				"success": "La llista d’aplicacions \"{title}\" s’ha eliminat correctament.",
+				"error": "S’ha produït un error en eliminar aquesta llista d’aplicacions. Torna-ho a provar aviat."
+			},
+			"remove": {
+				"confirmation": {
+					"title": "Suprimeix la llista d’aplicacions \"{title}\"",
+					"body": "Confirmes que vols suprimir aquesta llista d’aplicacions? Podràs continuar accedint a les aplicacions que conté.",
+					"cancel": "Cancel·la",
+					"confirm": "Suprimeix la llista d’aplicacions"
+				},
+				"success": "La llista d’aplicacions \"{title}\" s’ha suprimit correctament.",
+				"error": "S’ha produït un error en suprimir aquesta llista d’aplicacions. Torna-ho a provar aviat."
+			},
+			"import": {
+				"title": "Obre una llista d’aplicacions",
+				"introduction": "Estàs provant d’obrir la llista d’aplicacions següent. Vols continuar?",
+				"cancel": "Cancel·la",
+				"confirm": "Confirma",
+				"missing_apps": "Hem detectat que falten algunes aplicacions de la llista. Pots continuar important aquesta llista, però pot ser que no vegis totes les aplicacions que hauries de veure. Contacta amb l’administrador del curs si el problema continua.",
+				"none_found": {
+					"title": "No s’ha trobat la llista d’aplicacions",
+					"text": "No hem pogut trobar la llista d’aplicacions que estàs provant d’importar."
+				},
+				"error": {
+					"missing_token": {
+						"title": "L’enllaç de la llista d'aplicacions és incorrecte",
+						"text": "Sembla que l’enllaç que has seguit és incorrecte. Torna-ho a provar."
+					},
+					"import": "S’ha produït un error en importar la llista d'aplicacions. Torna-ho a provar aviat."
+				}
+			},
+			"error": {
+				"not_responding": "S’ha produït un error en carregar les llistes d’aplicacions. Torna-ho a provar aviat."
+			}
+		},
+		"app_search": {
+			"greeting": {
+				"morning": "Bon dia",
+				"afternoon": "Bona tarda",
+				"evening": "Bon vespre",
+				"choose_launch": "Què vols iniciar?"
+			},
+			"loading": "S'estan carregant aplicacions",
+			"results": {
+				"count": "Una aplicació | {count} aplicacions",
+				"status": "S’ha trobat una aplicació | S’han trobat {count} aplicacions",
+				"focused": "{app} està seleccionada, prem la tecla Retorn per iniciar l’aplicació",
+				"focused_unavailable": "{app} està seleccionada, prem la tecla Retorn per obtenir més informació",
+				"none_found": {
+					"title": "No s’ha trobat cap aplicació",
+					"text": "No hem pogut trobar cap aplicació coincident"
+				},
+				"show_more": "Mostra’n més",
+				"error": {
+					"not_responding": "La cerca d’aplicacions no respon. Torna-ho a provar aviat."
+				},
+				"vendor": "Mostra totes les aplicacions de:",
+				"category": "Mostra totes les aplicacions a:",
+				"unavailable_accessible": "{app} no està disponible, selecciona l’aplicació per obtenir més informació"
+			},
+			"search_box": {
+				"label": "Cerca aplicacions",
+				"label_accessible": "Cerca aplicacions. Pots utilitzar les tecles de fletxa amunt i fletxa avall o el botó de la pestanya per navegar pels resultats de la cerca.",
+				"placeholder": "Cerca aplicacions"
+			},
+			"show_all": "Mostra totes les aplicacions",
+			"app_icon_preview_alt_text": "La icona de l’aplicació seleccionada actualment"
+		},
+		"banners": {
+			"label": "Imatges del bàner que contenen anuncis, notícies o suggeriments."
+		},
+		"categories": {
+			"error": {
+				"not_responding": "S’ha produït un error en carregar categories. Torna-ho a provar aviat."
+			}
+		},
+		"client": {
+			"install": {
+				"title": "Tens AppsAnywhere instal·lat al teu dispositiu?",
+				"text": "Has de tenir AppsAnywhere instal·lat perquè puguem oferir-te les aplicacions. Si encara no has instal·lat AppsAnywhere, fes clic a \"Instal·la ara\".",
+				"install_now": "Instal·la ara",
+				"already_installed": "Ja el tinc"
+			},
+			"install_instructions": {
+				"title": "La baixada ha començat",
+				"text": "Per accedir a AppsAnywhere, instal·la el programari. Només cal que ho facis la primera vegada que visitis AppsAnywhere a cada dispositiu.",
+				"step_one": {
+					"number": "1",
+					"line_one": "La baixada s’iniciarà automàticament.",
+					"line_two": "Si encara no s’ha iniciat després de 5 segons:",
+					"download_for_mac": "Baixa per a macOS",
+					"download_for_windows": "Baixa per a Windows",
+					"or": "o"
+				},
+				"step_two": {
+					"number": "2",
+					"text": "Quan la baixada s’hagi completat, fes clic a Run (Executa) per iniciar el programari."
+				},
+				"step_three": {
+					"number": "3",
+					"text": "Fes clic a Next (Següent) fins que es mostri Done (Fet)."
+				},
+				"installation_complete": "He completat la instal·lació",
+				"contact_support": "S’ha produït un error, contacta amb l’equip d’assistència",
+				"something_went_wrong": "S’ha produït un error"
+			}
+		},
+		"device": {
+			"platform": {
+				"windows": "Windows",
+				"mac": "macOS"
+			},
+			"browser": {
+				"chrome": "Google Chrome / Opera",
+				"firefox": "Firefox",
+				"edge": "Microsoft Edge",
+				"safari": "Safari"
+			}
+		},
+		"device_information": {
+			"loading": "S'està carregant informació del dispositiu",
+			"title": "Informació del dispositiu",
+			"restrictions": {
+				"on_domain": "domini propi",
+				"off_domain": "domini extern",
+				"user_owned": "Propietat dels usuaris",
+				"organization_owned": "Propietat de la universitat",
+				"on_site": "al lloc",
+				"off_site": "fora del lloc"
+			},
+			"device_type": {
+				"laptop": "portàtil",
+				"desktop": "escriptori"
+			},
+			"metrics": {
+				"memory": "Memòria",
+				"discrete_gpu": "GPU discreta"
+			},
+			"units": {
+				"gigabytes": "{number} GB",
+				"yes": "Sí",
+				"no": "No"
+			},
+			"unknown": {
+				"device": "Dispositiu desconegut",
+				"device_name": "Nom del dispositiu desconegut",
+				"domain": "Domini desconegut",
+				"device_type": "tipus de dispositiu desconegut",
+				"location": "Ubicació desconeguda",
+				"os": "Sistema operatiu desconegut",
+				"architecture": "Arquitectura desconeguda"
+			},
+			"copy": {
+				"button": "Copia la informació",
+				"success": "S’ha copiat"
+			},
+			"error": {
+				"not_responding": "No hem pogut obtenir la informació del teu dispositiu. Torna-ho a provar aviat."
+			}
+		},
+		"eulas": {
+			"loading": "S'estan carregant els Contractes de llicència d’usuari final",
+			"summary": "Abans d’anar a AppsAnywhere, has d’acceptar els Contractes de llicència d’usuari final següents.",
+			"updated": "Actualitzat",
+			"log_out": "Tanca la sessió",
+			"accept_all": "Accepta tots els Contractes de llicència d'usuari final (CLUF)",
+			"error": {
+				"title": "No hem pogut carregar els Contractes de llicència d’usuari final.",
+				"not_responding": "S’ha produït un error en carregar la informació del Contracte de llicència d’usuari final i, com que no sabem si hi ha cap Contracte de llicència d'usuari final (CLUF) que calgui acceptar, no podem continuar. Torna-ho a provar en breu i, si reps el mateix error, contacta amb l’equip d’assistència.",
+				"acceptance": "S’ha produït un error en acceptar els Contractes de llicència d’usuari final. Torna-ho a provar aviat."
+			}
+		},
+		"favourites": {
+			"add": "Afegeix {app} a Preferits",
+			"remove": "Suprimeix {app} de Preferits",
+			"error": {
+				"add": "S’ha produït un error en afegir a Preferits",
+				"remove": "S’ha produït un error en suprimir de Preferits",
+				"not_responding": "S’ha produït un error en carregar els Preferits. Torna-ho a provar aviat."
+			}
+		},
+		"header": {
+			"skip_links": "Ves al contingut",
+			"search_applications": "Cerca aplicacions",
+			"home": "Torna a la pàgina de cerca de AppsAnywhere",
+			"account": "El meu compte",
+			"select_language": "Selecciona un idioma",
+			"return_to_admin": "Torna a Admin (Administrador)",
+			"return_to_analytics": "Torna a Analytics (Anàlisis)",
+			"return_to_reporter": "Torna a Reporter (Informador)",
+			"validate": "Valida",
+			"revalidate": "Torna a validar",
+			"user_help": "Ajuda",
+			"device_information": "Informació del dispositiu",
+			"download_client": "Baixa el client",
+			"log_out": "Tanca la sessió"
+		},
+		"login": {
+			"sso": {
+				"via": "Inicia la sessió amb",
+				"or": "o",
+				"username_and_password": "Nom d’usuari i contrasenya",
+				"back_to_sso": "Torna als mètodes d’inici de sessió únic (SSO)"
+			},
+			"form": {
+				"username": {
+					"label": "Nom d’usuari"
+				},
+				"language": {
+					"label": "Idioma"
+				},
+				"domain": {
+					"label": "Domini"
+				},
+				"password": {
+					"label": "Contrasenya"
+				},
+				"buttons": {
+					"submit": "Inicia la sessió"
+				}
+			},
+			"all_rights_reserved": "Tots els drets reservats",
+			"error": {
+				"login": "No hem pogut iniciar la sessió. Torna-ho a provar."
+			}
 		},
 		"more_info": {
-			"categories": "Categories",
-			"description": "Descripció",
-			"dm_description": "Descripció",
-			"dm_info": "Informació",
-			"dm_oss": "Sistemes operatius",
-			"dm_restrictions": "Restriccions",
-			"dms_for": "Mètodes d'entrega per",
-			"filter_countries": "Filtrar per països",
-			"os_support": "Suport",
-			"regions_for": "Regions disponibles per",
-			"regions_unrestricted": "Aquesta aplicació no està restringida per regió.",
-			"tab_details": "Detalls de l'aplicació",
-			"tab_dms": "Mètodes d'entrega",
-			"tab_regions": "Restriccions",
-			"vendor": "Fabricant"
+			"loading": "S’està carregant informació de l’aplicació",
+			"from_vendor": "de {vendor}",
+			"accessibility": {
+				"category": "Visita la categoria {category}"
+			},
+			"none_found": {
+				"title": "No s’ha trobat l’aplicació",
+				"text": "No hem trobat l’aplicació que estaves cercant. Torna-ho a provar aviat."
+			},
+			"issues": {
+				"unknown": "No hem pogut determinar per què aquesta aplicació no està disponible.",
+				"region": {
+					"label": "Malauradament, aquesta aplicació no es pot utilitzar a la teva regió.",
+					"your_region": "Codi de regió detectat",
+					"region_not_detected": "No hem pogut detectar la teva regió",
+					"supported_regions": "Regions admeses"
+				},
+				"title": {
+					"label": "Malauradament, hi ha un o diversos problemes, cosa que fa que aquesta aplicació no estigui disponible.",
+					"explanation": "Les aplicacions poden tenir un o més mètodes d’inici, però només et cal un mètode d’inici adient per iniciar una aplicació. Hem indicat els que hi ha disponibles per mirar d’ajudar-te a trobar la ruta més senzilla per utilitzar aquesta aplicació.",
+					"launch_method": "Mètode d’inici",
+					"reason": "Motiu d'exclusió"
+				},
+				"restrictions": {
+					"domain": "Has de disposar de connexió al domini de la teva institució i tenir-hi la sessió iniciada.",
+					"site": "Has d’estar dins la xarxa de la teva institució.",
+					"laptop": "Has d’utilitzar un portàtil.",
+					"desktop": "Has d’utilitzar un dispositiu de taula.",
+					"is-byod": "Has d’utilitzar un dispositiu propietat de la institució i actualment estàs utilitzant el teu propi dispositiu.",
+					"is-not-byod": "Has d’utilitzar el teu propi dispositiu i actualment estàs utilitzant el dispositiu propietat de la institució.",
+					"os": {
+						"label": "El teu sistema operatiu actual — {os} — no s’admet.",
+						"expand": "Mostra’m quins sistemes operatius s’admeten"
+					}
+				},
+				"hardware": {
+					"hardware": "El teu dispositiu no compleix els requisits mínims de maquinari.",
+					"validation": {
+						"requires_validation": "Aquest mètode d’inici té requisits mínims de maquinari, però no podem determinar el maquinari del teu dispositiu sense validar-lo.",
+						"validate_now": "Valida ara",
+						"cannot_validate": "Aquest mètode d’inici té requisits mínims de maquinari, però no podem determinar el maquinari del teu dispositiu."
+					},
+					"expand": "Mostra’m els requisits de maquinari",
+					"comparison": {
+						"minimum_requirements": "Requisits mínims",
+						"your_device": "El teu dispositiu",
+						"metrics": {
+							"memory": "Memòria",
+							"discrete_gpu": "GPU discreta"
+						},
+						"units": {
+							"gigabytes": "{number} GB",
+							"yes": "Sí",
+							"no": "No"
+						}
+					}
+				}
+			},
+			"error": {
+				"not_responding": "No hem pogut carregar els detalls addicionals d’aquesta aplicació. Torna-ho a provar aviat.",
+				"unavailable_not_responding": "Hem provat de determinar per què aquesta aplicació no estava disponible, però no hem pogut esbrinar-ho. Torna-ho a provar aviat."
+			}
 		},
-		"more_info_button": "Més informació",
-		"needs_validation": "Necessita validació",
-		"no_delivery_method": "No s'han trobat mètodes d'entrega per a aquesta aplicació.",
-		"no_description": "No hi ha cap descripció disponible en aquest moment.",
-		"no_match": "Ho sento, no hi ha cap aplicació que coincideixi amb la teva selecció.",
-		"none_found": "Ho sento, no hi ha aplicacions disponibles actualment. Si us plau, contacta amb el servei d'assistència per demanar accés.",
-		"os": {
-			"other": "Altres",
-			"support_full": "Compatible amb",
-			"support_none": "No s'admet",
-			"support_partial": "Compatible parcialment amb",
-			"support_unknown": "No s'ha provat a",
-			"supported": "Compatible",
-			"unsupported": "No compatible",
-			"untested": "No provat"
-		},
-		"restrictions": {
-			"any_device": "Qualsevol dispositiu permès",
-			"byod_not_ok": "Els dispositius propietat d'usuari (BYOD) no estan permesos",
-			"byod_ok": "Dispositius propietat d'usuari (BYOD) permesos",
-			"domain_any": "Qualsevol domini",
-			"domain_restricted": "Només dominis de la institució",
-			"laptop_only": "Només per a dispositius portàtils",
-			"machine_only": "Aquesta aplicació només està disponible en aquesta màquina",
-			"offline_not_ok": "No està disponible fora de línia",
-			"offline_ok": "Disponible fora de línia",
-			"offsite_not_ok": "No permès off-site",
-			"offsite_ok": "Permès off-site",
-			"region_any": "Qualsevol regió",
-			"region_restricted": "Regió restringida",
-			"region_unrestricted": "Aquesta aplicació no està restringida per regió."
-		},
-		"status": {
-			"launching_via": "Inicia via",
-			"requires_2fa": "Aquesta aplicació requereix 2FA",
-			"requires_validation": "Aquesta aplicació requereix validació",
-			"unavailable_action": "No disponible",
-			"unavailable_text": "Aquesta aplicació no està disponible"
-		},
-		"unknown_vendor": "Fabricant desconegut"
-	},
-	"app-list": {
-		"add": "Afegeix una llista nova",
-		"associated_with_course": "Aquesta llista d'aplicacions s'ha associat amb el curs",
-		"description": "Aquí podeu conservar les llistes d'aplicacions relacionades que voldríeu compartir amb altres usuaris.",
-		"in_lms": "al vostre sistema de gestió de l’aprenentatge.",
-		"lti": "Curs",
-		"lti_confirm_delete": "al vostre sistema de gestió de l'aprenentatge, esteu segur que voleu suprimir aquesta llista?",
-		"successful_link": "Aquesta llista d'aplicacions s'ha vinculat correctament amb el curs",
-		"title": "Les meves llistes d'aplicacions"
-	},
-	"app_list_confirmation": {
-		"cancel": "Cancel·la",
-		"confirm": "Afegeix una llista nova",
-		"description": {
-			"end": "Voleu continuar?",
-			"name": "aquesta llista la compartia",
-			"start": "Estàs obrint la llista d'aplicacions"
-		},
-		"title": "Obriu una llista d’aplicacions"
-	},
-	"app_list_name": {
-		"cancel": "Cancel·la",
-		"create": "Crea",
-		"description": "El nom que trieu per a la vostra llista d'aplicacions serà visible per a les persones amb qui compartiu la llista.",
-		"list_name": "Nom de la llista",
-		"title": "Nom de la llista d'aplicacions",
-		"update": "Canviar el nom",
-		"validation": {
-			"invalid_characters": "El nom conté caràcters invàlids",
-			"length": "El nom no ha de ser superior a 250 caràcters",
-			"required": "El nom no pot estar buit"
-		}
-	},
-	"client": {
-		"download": "Descarrega",
-		"have": "Ja ho tinc"
-	},
-	"cloudpaging": {
-		"no_applications_found": "No s'ha trobat cap aplicació",
-		"no_versions_found": "No s'ha trobat cap versió"
-	},
-	"context": {
-		"helpers": {
-			"any_device": "Tots els dispositius estan permesos",
-			"byod_rqd": "Utilitzes un dispositiu que no pertany a una institució per accedir a aquesta aplicació",
-			"byod_text": "Si els dispositius propietat de l'usuari no estan permesos, només es podran utilitzar els dispositius propietat de la institució.",
-			"byod_title": "Dispositius propietat de l'usuari",
-			"device_text": "Aquesta aplicació està especialment subministrada a determinades màquines i pot ser que no estigui disponible en cap altre lloc.",
-			"device_title": "Aquesta aplicació només està disponible a les màquines seleccionades",
-			"device_type_text": "Si el tipus de dispositiu està restringit a determinats dispositius, només tindreu accés a aquest mètode d’entrega en un tipus de dispositiu especificat.",
-			"device_type_title": "Tipus de dispositiu",
-			"is_byod": "Estàs utilitzant el teu propi dispositiu",
-			"is_laptop": "Utilitzeu un ordinador portàtil",
-			"is_off_domain": "Sou fora del domini",
-			"is_off_site": "Esteu off site",
-			"is_on_domain": "Sou dins del domini",
-			"is_on_site": "Esteu on site",
-			"is_org_owned": "Estàs utilitzant un dispositiu de la institució",
-			"laptop_only": "Només portàtil",
-			"no_restrictions": "Qualsevol dispositiu",
-			"not_byod": "El teu dispositiu no pertany a aquesta categoria",
-			"not_laptop": "Per accedir a aquest mètode d’entrega, heu d’utilitzar un ordinador portàtil",
-			"not_permitted": "No permès",
-			"off_domain_text": "Si l'accés fora del domini no està permès, el teu dispositiu haurà d'estar connectat i autenticat a un dels dominis de la institució.",
-			"off_domain_title": "Accés fora del domini",
-			"off_site_text": "Si l'accés off-site no està permès, el teu dispositiu haurà d'estar connectat a la nostra xarxa local. Això pot incloure estar connectat per VPN.",
-			"off_site_title": "Accés Off-site",
-			"org_owned_rqd": "Utilitzes un dispositiu propietat de la institució per accedir a aquesta aplicació",
-			"org_owned_text": "Si els dispositius propietat de la institució no estan permesos, només es podran utilitzar els dispositius propietat de l'usuari.",
-			"org_owned_title": "Dispositius propietat de la institució",
-			"permitted": "Permès"
-		},
-		"status": {
-			"device": "Màquina",
-			"device_byod": "Propietat de l'usuari",
-			"device_laptop": "Portàtil",
-			"device_org_owned": "Propietat de la universitat",
-			"device_type": "Tipus de màquina",
-			"location": "Ubicació",
-			"not_byod": "No",
-			"off_site": "Off-Site",
-			"on_site": "On-Site",
-			"os": "Sistema operatiu"
-		}
-	},
-	"data_table": {
-		"load_more": "Carrega més resultats",
-		"more_found": "No s'estan mostrant tots els resultats. Fes clic a 'Carrega més resultats' per mostrar-los tots.",
-		"no_data": "Ho sentim, no s'ha pogut trobar cap informació."
-	},
-	"delivery_methods": {
-		"citrix_cloudpaged": "Citrix Cloudpaged",
-		"citrix_cloudpaged_desc": "<p> El mètode d'entrega de Citrix Cloudpaged us proporcionarà accés a una aplicació que s'executa en un dispositiu remot, normalment allotjat a l'organització, mitjançant l'aplicació Citrix Workspace. </p> <p> Aquest mètode sol ser s'utilitza quan no està permès l'ús de l'aplicació a la qual accediu fora de l'organització, o bé requereix l'accés a recursos que no estan disponibles al vostre dispositiu. </p> <p> També es pot utilitzar si el dispositiu no està físicament capaç d'executar l'aplicació particular. </p>",
-		"citrix_desktop": "Escriptori Citrix",
-		"citrix_desktop_desc": "<p> El mètode d'entrega de l'escriptori Citrix us ofereix accés remot a un dispositiu allotjat per l'organització mitjançant l'aplicació Citrix Workspace. </p> <p> Els escriptoris Citrix us permeten accedir a aplicacions, fitxers i altres recursos com si estiguéssiu en un dispositiu de l'organització. </p> <p> Aquest mètode d'entrega normalment s’utilitzarà per proporcionar-vos accés a recursos que no estan disponibles des del vostre propi dispositiu. </p>",
-		"citrix_native": "Citrix Natiu",
-		"citrix_native_desc": "<p> El mètode d'entrega de Citrix us proporcionarà accés a una aplicació que s'executa en un dispositiu remot, generalment allotjat a la pròpia organització, mitjançant l'aplicació Citrix Workspace. </p> <p> Aquest mètode sol utilitzar-se quan l'ús de l'aplicació a la qual està accedint no està permès fora de l'organització, o bé requereix l'accés a recursos que no estan disponibles al vostre dispositiu. </p> <p> També es pot utilitzar si el dispositiu no és capaç físicament de l'execució de l'aplicació particular. </p>",
-		"cloudpaging": "Cloudpaging",
-		"cloudpaging_desc": "<p>El mètode d'entrega Cloudpaging ens permet oferir aplicacions sense haver d'instal·lar-les físicament al teu dispositiu.</p><p>En lloc d'això, l'aplicació és lliurada a través de la xarxa o d'Internet, de la mateixa forma com els reproductors multimèdia a la carta presenten contingut visual.</p><p>Un cop hagis fet clic a 'Inicia', l'aplicació s'emmagatzemarà i carregarà al dispositiu, i es comportarà com si estigués instal·lada localment, però en realitat s'està lliurant a través de la connexió.</p><p>Comprova la icona 'fora de línia permesa' per veure si necessites mantenir-te connectat per continuar utilitzant l'aplicació.</p>",
-		"direct_download": "Descàrrega directa",
-		"direct_download_desc": "<p>El mètode d'entrega de la descàrrega directa iniciarà la descàrrega d'un fitxer al navegador que, generalment, acabarà a la carpeta de descàrregues del teu dispositiu, depenent de la configuració del teu navegador.</p><p>Si estàs iniciant una aplicació, podria ser que el fitxer fos l'instal·lador d'aquesta aplicació. Si és així, pots instal·lar-lo tu mateix/a al teu dispositiu. Consulta la descripció de l'aplicació per obtenir més informació sobre què fer amb el fitxer proporcionat.</p>",
-		"external_website": "Lloc web extern",
-		"external_website_desc": "<p>El mètode d'entrega de lloc web extern simplement et dirigirà a un altre web on podràs trobar informació sobre l'accés a l'element que has seleccionat.</p><p>Si el recurs és una aplicació web, és probable que et porti directament a l'aplicació.</p>",
-		"jamf_pro_ebook": "Llibre electrònic de Jamf",
-		"jamf_pro_ebook_desc": "<p> El mètode d'entrega de llibres electrònics Jamf Pro iniciarà la implementació d'un fitxer de llibres electrònics al vostre dispositiu i, després, s'obrirà a l'aplicació predeterminada per a fitxers d'aquest tipus. </p>",
-		"jamf_pro_mac_app_store_application": "Aplicació AppStore Jamf",
-		"jamf_pro_mac_app_store_application_desc": "<p> El mètode d'entrega d'aplicacions per a Mac App Store, proporcionat per Jamf Pro, activarà la implementació d'una aplicació des de la botiga d'aplicacions Mac que es desplegarà al vostre dispositiu. </p> <p> Segons el tipus d'aplicació, és possible que se us demanarà que instal·leu l'aplicació vosaltres mateixos des de la botiga d'aplicacions de mac, però AppsAnywhere pot ser capaç de desplegar l'aplicació automàticament al vostre dispositiu, després de la qual es llançarà l'aplicació, a punt per utilitzar-la. </p>",
-		"jamf_pro_policy": "Política de Jamf",
-		"jamf_pro_policy_desc": "<p> Les polítiques proporcionades per Jamf Pro solen representar aplicacions que s'instal·laran i s'iniciaran després al vostre dispositiu, però també poden oferir-vos una àmplia gamma d'altres recursos disponibles. </p> <p> Comproveu la descripció de l'aplicació. per obtenir més informació sobre el que es lliurarà al vostre dispositiu mitjançant aquest mètode d'entrega.</p>",
-		"locally_deployed_win": "Desplegat localment (Win)",
-		"locally_deployed_win_desc": "<p>El mètode d'entrega implementat localment s'utilitza per iniciar aplicacions que ja s'han instal·lat en determinats dispositius Windows. L'administrador definirà quins dispositius tenen aquesta aplicació preinstal·lada i si accedeixes a AppsAnywhere en un d'aquests dispositius, aquest mètode d'entrega s'utilitzarà per iniciar l'aplicació directament, en lloc d'intentar desplegar-la de nou.</p>",
-		"locally_installed": "Instal·lat localment",
-		"locally_installed_desc": "<p>El mètode d'entrega instal·lat localment s'utilitza per iniciar aplicacions que ja estan instal·lades al dispositiu Windows o Mac. Si el client d'AppsAnywhere detecta que l'aplicació ja està disponible al teu dispositiu, et recomanarà aquest mètode d'entrega perquè l'aplicació es pugui iniciar directament.</p>",
-		"none": "No es poden trobar mètodes d'entrega per a aquesta aplicació.",
-		"osx_install": "Instal·la per a OSX",
-		"osx_install_desc": "<p>El mètode d'entrega de la instal·lació d'OSX activarà la instal·lació completa del recurs seleccionat al teu dispositiu Mac OS.</p><p>Tot el procés serà totalment automatitzat i no hauràs de fer res més que esperar a que l'aplicació es posi en marxa.</p>",
-		"parallels_cloudpaged": "Parallels: Cloudpaged",
-		"parallels_cloudpaged_desc": "<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, mitjançant el client Parallels.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
-		"parallels_desktop": "Parallels: Escriptori",
-		"parallels_desktop_desc": "<p>El mètode d'entrega d'escriptori de Parallels et proporciona accés remot a un dispositiu allotjat per la institució mitjançant els clients de Parallels.</p><p>Els escriptoris remots permeten accedir a aplicacions, arxius i altres recursos com si estiguessis assegut davant un dispositiu de la institució.</p><p>Aquest mètode d'entrega et permetrà accedir a recursos que no estiguin disponibles des del dispositiu.</p>",
-		"parallels_html5_cloudpaged": "Parallels HTML5: Cloudpaged",
-		"parallels_html5_cloudpaged_desc": "<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, des del teu navegador.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
-		"parallels_html5_desktop": "Parallels HTML5: Escriptori",
-		"parallels_html5_desktop_desc": "<p>El mètode d'entrega de l'escriptori Parallels HTML5 et proporciona accés remot a un dispositiu allotjat per la institució des del teu navegador.</p><p>Els escriptoris remots permeten accedir a aplicacions, arxius i altres recursos com si estiguessis assegut davant un dispositiu de la institució.</p><p>Aquest mètode d'entrega et permetrà accedir a recursos que no estiguin disponibles des del dispositiu.</p>",
-		"parallels_html5_native": "Parallels HTML5: Natiu",
-		"parallels_html5_native_desc": "<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, des del teu navegador.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
-		"parallels_native": "Parallels: Natiu",
-		"parallels_native_desc": "<p>El mètode d'entrega d'aplicacions remotes de Parallels et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, generalment allotjat a la institució, mitjançant el client Parallels.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el teu dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
-		"priority_error": "No hem pogut desar les prioritats del mètode d'entrega.",
-		"priority_success": "La prioritat del mètode d'entrega s'ha actualitzat correctament.",
-		"remoteapp": "RemoteApp",
-		"remoteapp_desc": "<p>El mètode d'entrega RemoteApp utilitza la tecnologia RemoteApp de Microsoft per accedir a una aplicació que s'executa en un altre equip, generalment en un servidor de la xarxa de la institució.</p><p>No necessites instal·lar res al dispositiu, però hauràs d'estar connectat per continuar utilitzant l'aplicació.</p>",
-		"sccmappv_install": "SCCM/App-V Install",
-		"sccmappv_install_desc": "<p>El mètode d'entrega d'instal·lació SCCM/App-V activarà la instal·lació completa del recurs seleccionat al teu dispositiu Windows.</p><p>El procés d'instal·lació serà totalment automatitzat i no hauràs de fer res més que esperar que el recurs estigui disponible permanentment a la màquina.</p>",
-		"secure_download": "Descàrrega segura",
-		"secure_download_desc": "<p>El mètode d'entrega de la transferència segura iniciarà la descàrrega d'un fitxer al teu navegador que (generalment) acabarà a la carpeta de descàrregues del teu dispositiu, depenent de la configuració del navegador.</p><p>Si estàs iniciant una aplicació, podria ser que el fitxer fos l'instal·lador d'aquesta aplicació. Si és així, pots instal·lar-lo tu mateix/a al teu dispositiu. Consulta la descripció de l'aplicació per obtenir més informació sobre què fer amb el fitxer proporcionat.</p><p>Aquestes descàrregues estan disponibles només quan estàs autenticat a AppsAnywhere.</p>",
-		"virtual_desktop_wvd": "Windows Virtual Desktop",
-		"vmware_horizon_cloudpaged": "VMWare Horizon: Cloudpaged",
-		"vmware_horizon_cloudpaged_desc": "<p>El mètode d'entrega de l'aplicació remota de VMware Horizon et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, normalment allotjat a la institució.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el dispositiu no és físicament capaç d'executar aquesta aplicació.</p>",
-		"vmware_horizon_desktop": "VMWare Horizon: Escriptori",
-		"vmware_horizon_desktop_desc": "<p>El mètode d'entrega de l'escriptori VMware Horizon t'ofereix accés complet i remot a un dispositiu allotjat per la institució.</p><p>Els escriptoris remots permeten accedir a aplicacions, arxius i altres recursos com si estiguessis assegut davant un dispositiu de la institució.</p><p>Normalment, aquest mètode d'entrega et permetrà accedir a recursos que no estiguin disponibles des del dispositiu.</p>",
-		"vmware_horizon_native": "VMWare Horizon: Natiu",
-		"vmware_horizon_native_desc": "<p>El mètode d'entrega de l'aplicació remota de VMware Horizon et proporcionarà accés a una aplicació que s'estigui executant en un dispositiu remot, normalment allotjat a la institució.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accedeix no està permès fora de la institució, o requereix accés a recursos que no estan disponibles al dispositiu.</p><p>També es pot utilitzar si el dispositiu no és físicament  capaç d'executar aquesta aplicació.</p>",
-		"windows_executable": "Windows executable",
-		"windows_executable_desc": "<p>El mètode d'entrega executable de Windows activarà el llançament (i possiblement també la instal·lació) de l'aplicació al teu dispositiu Windows.</p><p>Tot el procés serà totalment automatitzat i no has de fer res més que esperar a que l'aplicació es posi en marxa.</p>",
-		"windows_virtual_desktop_wvd_desc": "<p> El mètode de lliurament de l'escriptori virtual de Windows us proporcionarà accés a una aplicació que s'executa en un dispositiu remot, normalment allotjat al lloc de l'organització.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accediu no està permès fora de l'organització o requereix accés a recursos que no estan disponibles al vostre dispositiu.</p><p>També es pot utilitzar si el vo    stre dispositiu no és físicament capaç d'executar l'aplicació concreta.</p>",
-		"virtual_desktop_wvd_desc": "<p> El mètode de lliurament de l'escriptori virtual de Windows us proporcionarà accés a una aplicació que s'executa en un dispositiu remot, normalment allotjat al lloc de l'organització.</p><p>Aquest mètode s'utilitza normalment quan l'ús de l'aplicació a la qual accediu no està permès fora de l'organització o requereix accés a recursos que no estan disponibles al vostre dispositiu.</p><p>També es pot utilitzar si el vostre dispositiu no és físicament capaç d'executar l'aplicació concreta.</p>"
-	},
-	"dependency": {
-		"have": "Ja ho tinc",
-		"intro_automatic": "L'aplicació que està a punt de començar té dependències que s'executaran automàticament. Les aplicacions requerides s'enumeren aquí per a la teva informació.",
-		"intro_manual": "L'aplicació que ets a punt d'iniciar té dependències. Una vegada que totes les aplicacions que figuren aquí s'hagin iniciat, podràs continuar.",
-		"launch_all": "Inicia aplicacions i dependències",
-		"launch_single": "Inicia l'aplicació",
-		"title": "Dependències de l'aplicació"
-	},
-	"discoverables": {
-		"close": "OK",
-		"content": {
-			"favourites_text": "Cerca les teves aplicacions preferides a la pestanya de preferits.",
-			"filters_text": "Fes un clic a l'etiqueta per esborrar el filtre.",
-			"search_text": "Ves ràpidament a la barra de cerca utilitzant 's'."
-		},
-		"show_tips": "Mostra'm consells",
-		"title": "Millor consell!"
-	},
-	"error": {
-		"apps": {
-			"initial": "Ho sentim, no hem pogut carregar les aplicacions en aquest moment. Torna-ho a provar.",
-			"more_info": "No hem pogut carregar tota la informació de l'aplicació.",
-			"no_compat_info": "No s'ha pogut trobar la informació de compatibilitat per a aquesta aplicació."
-		},
-		"categories": "No hem pogut carregar la informació de la categoria. Encara pots accedir a les teves aplicacions, però no podràs cercar per categoria. Si aquest problema continua, posa't en contacte amb el servei de suport.",
-		"client_settings": "Els canvis no s'han pogut desar en aquest moment. Torna-ho a provar.",
-		"cloudpaging_applications": "Les aplicacions de CloudPaging no s'han pogut carregar en aquest moment.",
-		"context": "No s'ha pogut carregar el context d'aplicació. Les aplicacions no estaran disponibles.",
-		"copy": "Ha fallat la còpia. Prem Ctrl / Cmd + C per copiar el text seleccionat.",
-		"delivery_methods": "Els mètodes d'entrega no s'han pogut carregar en aquest moment. Intenta actualitzar la pàgina.",
-		"favourites": {
-			"toggle": "No hem pogut actualitzar l'aplicació. Torna-ho a provar."
-		},
-		"identity": "No hem pogut recuperar la teva informació d'identitat. Si aquest problema continua, posa't en contacte amb suport.",
-		"launch": "Hi ha hagut un problema per determinar com iniciar l'aplicació. Torna-ho a provar.",
-		"lazyload": "Hi ha hagut un problema al carregar una de les icones, però l'aplicació hauria de seguir funcionant correctament.",
-		"login": "Hi ha hagut un problema a l'intentar iniciar sessió. Torna-ho a provar de nou.",
-		"machine_apps": "Ho sentim, no hem pogut determinar si hi ha aplicacions addicionals disponibles per a aquest dispositiu. Torna-ho a provar.",
-		"register_new_apps": "Hi ha hagut un problema al registrar noves aplicacions. Torna-ho a provar.",
 		"session": {
-			"mass_action": "No hem pogut realitzar aquesta acció. Si aquest problema persisteix, contacteu amb el suport."
+			"keep_alive": {
+				"session_struggling": "Estem tenint problemes per connectar-nos al servidor. Continuarem provant en segon pla.",
+				"session_restored": "S’ha restablert la connexió al servidor.",
+				"session_expired": "S’ha perdut la connexió al servidor. Torna a iniciar la sessió per continuar.",
+				"log_in_again": "Torna a iniciar la sessió.",
+				"offline": "Sembla que no tens connexió. AppsAnywhere no funcionarà durant aquesta estona, però t'avisarem quan s’hagi restablert la connectivitat.",
+				"connection_restored": "S’ha restablert la connexió a Internet."
+			}
+		},
+		"user_help": {
+			"loading": "S'està carregant l’ajuda",
+			"title": "Contacta amb l’equip d’assistència",
+			"link": "Obtén ajuda",
+			"device_information": "Informació del dispositiu",
+			"attached_device_information": "Informació adjunta del dispositiu",
+			"form": {
+				"name": {
+					"label": "Nom",
+					"validation": {
+						"required": "Introdueix el teu nom per si ens cal posar-nos en contacte amb tu"
+					}
+				},
+				"email": {
+					"label": "Adreça de correu electrònic",
+					"validation": {
+						"required": "Introdueix la teva adreça de correu electrònic per si ens cal posar-nos en contacte amb tu",
+						"email": "Introdueix una adreça de correu electrònic vàlida per si ens cal posar-nos en contacte amb tu"
+					}
+				},
+				"problem_type": {
+					"label": "Tipus de problema",
+					"options": {
+						"application_missing": "No puc trobar una aplicació que necessito",
+						"launch_issue": "Tinc problemes per iniciar una aplicació",
+						"validation_issue": "Tinc problemes per validar",
+						"defect": "Tinc un problema amb el lloc web",
+						"query": "Tinc una pregunta",
+						"other": "Altres"
+					}
+				},
+				"description": {
+					"label": "Més detalls"
+				},
+				"buttons": {
+					"submit": "Envia una sol·licitud"
+				},
+				"error": {
+					"submit": "S’ha produït un error en enviar la sol·licitud d'ajuda. Torna-ho a provar aviat."
+				}
+			}
 		},
 		"validation": {
-			"copy": "Ho sentim, no hem pogut validar el teu dispositiu en aquest moment. Fes clic a 'Reintenta' i no oblidis acceptar la 'Sol·licitud de protocol extern'",
-			"fail": "No hem pogut recuperar el teu estat de validació. Si aquest problema persisteix, posa't en contacte amb el servei de suport.",
-			"title": "La validació ha fallat"
+			"validating": {
+				"title": "Estem provant d’establir contacte amb AppsAnywhere al teu dispositiu",
+				"text": "Quan se't demani, fes clic a “Launch application” («Inicia l’aplicació») perquè ens permeti validar el teu dispositiu.",
+				"status": {
+					"in_progress": "S’està validant"
+				}
+			},
+			"offer_troubleshooter": {
+				"title": "Tens AppsAnywhere instal·lat al teu dispositiu?",
+				"text": "La validació està tardant més del que s’esperava. Consulta la nostra eina de resolució de problemes i segueix uns quants passos perquè tot torni a funcionar correctament.",
+				"open_troubleshooter": "Obre l’eina de resolució de problemes"
+			},
+			"troubleshooter": {
+				"title": "Resolució de problemes de validació",
+				"timeout_notice": "La validació no s’ha pogut completar amb normalitat. S’ha activat l'eina de resolució de problemes per mirar de resoldre qualsevol problema i perquè tot torni a funcionar correctament.",
+				"progress": {
+					"validating": {
+						"label": "Validació en curs"
+					},
+					"success": {
+						"label": "Validació correcta",
+						"text": "Hem pogut validar correctament el teu dispositiu durant el procés de resolució de problemes. Ja pots tancar l’eina de resolució de problemes i continuar.",
+						"continue": "Tanca l’eina de resolució de problemes"
+					},
+					"pending": {
+						"label": "Validació en pausa",
+						"text": "La validació està actualment en pausa. Si creus que has solucionat el problema, pots tornar-ho a provar.",
+						"retry": "Tornar a provar la validació"
+					}
+				},
+				"previous_topic": "Enrere",
+				"security": {
+					"title": "Sol·licituds de seguretat",
+					"text": "Per poder validar el dispositiu, hem d'enviar un missatge al client d'AppsAnywhere.\n\nAixò pot activar una sol·licitud de seguretat al teu navegador, en què se't demani que confirmis si vols que es dugui a terme aquesta comunicació.\n\nHas vist una sol·licitud com aquesta i has fet clic a cancel·lar?",
+					"image_description": "Una imatge del quadre de diàleg de confirmació que es pot mostrar al navegador quan provem d'establir contacte amb AppsAnywhere, que conté accions de confirmar i cancel·lar.",
+					"opened": "He fet clic a open (obrir)",
+					"cancelled": "He fet clic a cancel (cancel·lar)",
+					"explainer": "Aquestes sol·licituds de seguretat són essencials perquè puguem establir contacte amb el client, i has d’acceptar la sol·licitud perquè es produeixi la validació.\n\nEt recomanem que seleccionis \"permet sempre\", de manera que no hagis d'acceptar cada vegada.",
+					"try_again": "Torna a provar la validació",
+					"move_on": "Continua"
+				},
+				"client": {
+					"title": "Instal·lació del client",
+					"text": "Has de tenir el client d’AppsAnywhere instal·lat perquè AppsAnywhere funcioni. A continuació t’indiquem els passos per comprovar-ho.",
+					"check": {
+						"windows": "Fes clic amb el botó dret a la icona de Windows, ves a Aplicacions i funcions i, a continuació, cerca \"AppsAnywhere\".",
+						"mac": "Ves a Aplicacions, troba la carpeta Software2 i, a continuació, cerca \"AppsAnywhere.app\"."
+					},
+					"installed": "El client està instal·lat",
+					"not_installed": "El client no està instal·lat",
+					"explainer": "Perquè AppsAnywhere funcioni, has d’instal·lar el client al teu dispositiu.",
+					"managed_install": "Perquè AppsAnywhere funcioni, has d’instal·lar el client al teu dispositiu. Això és responsabilitat del teu administrador.",
+					"install_now": "Instal·la el client",
+					"move_on": "Continua",
+					"did_it_work": "S’ha instal·lat correctament?",
+					"it_worked": "Ha funcionat, tornar a provar la validació",
+					"it_did_not_work": "Ha fallat, contacta amb l’equip d’assistència"
+				},
+				"one_more_time": {
+					"title": "Torna-ho a provar",
+					"text": "Si no és cap dels altres problemes, pot ser que sigui només un error casual. Per què no ho tornes a provar un cop més?",
+					"try_again": "Torna a provar la validació",
+					"move_on": "No ha funcionat, continua"
+				},
+				"stuck": {
+					"title": "Continues tenint problemes?",
+					"text": "Si encara no funciona, contacta amb l’equip d’assistència.\n\nInclou tanta informació com sigui possible, per exemple, si\n\nhas vist la finestra emergent de la pantalla inicial o\nhas rebut un missatge d'error.",
+					"contact_support": "Contacta amb l’equip d’assistència"
+				},
+				"cancel": {
+					"title": "Confirmes que vols cancel·lar la validació?",
+					"text": "Si cancel·les ara, la validació fallarà.",
+					"cancel": "Continua provant",
+					"confirm": "Sí, cancel·la"
+				}
+			},
+			"validation_failed": {
+				"title": "No s’ha pogut fer la validació",
+				"text": "No hem pogut fer la validació. Torna-ho a provar.",
+				"try_again": "Torna-ho a provar",
+				"close": "Tanca la validació"
+			}
 		}
-	},
-	"eula": {
-		"accept": "Accepto",
-		"instructions": {
-			"end": "abans d’accedir a AppsAnywhere.",
-			"start": "Llegiu el contingut i accepteu el següent"
-		},
-		"log_out": "Tancar sessió",
-		"warning": "Heu de llegir els acords de llicència abans d’acceptar."
-	},
-	"favourite": {
-		"add_text": "Afegeix als preferits",
-		"add_title": "Afegeix als preferits",
-		"remove_text": "Elimina",
-		"remove_title": "Elimina dels preferits"
-	},
-	"filter": {
-		"all_available": "Totes disponibles",
-		"all_available_description": "- Nombre d'aplicacions disponibles:",
-		"all_provisioned": "Totes",
-		"all_provisioned_description": "- Nombre d'aplicacions, disponibles i no disponibles:",
-		"apps": "Aplicacions",
-		"apps_description": "- Nombre d'aplicacions:",
-		"categories": {
-			"none_selected": "No hi ha categories seleccionades",
-			"plural": "Categories",
-			"singular": "Categoria"
-		},
-		"containing": "Conté",
-		"desktops": "Escriptoris",
-		"desktops_description": "- Nombre d'escriptoris:",
-		"favourites": "Favorits",
-		"favourites_description": "- Nombre d'aplicacions preferides:",
-		"list": "A la llista d'aplicacions",
-		"list_description": "- Nombre d'aplicacions a la vostra llista:",
-		"os_plural": "Sistemes operatius",
-		"os_short": "SO",
-		"os_singular": "Sistema operatiu",
-		"remove_filter": " - Feu clic per eliminar aquest filtre",
-		"shared_list": {
-			"plural": "Llistes d'aplicacions",
-			"singular": "Llista d'aplicacions"
-		},
-		"show": "Mostra",
-		"unavailable": "No disponible",
-		"unavailable_description": ", Nombre d'aplicacions no disponible:"
-	},
-	"form": {
-		"required": "Aquest camp és obligatori."
-	},
-	"header": {
-		"access_admin": "Torna a l'administració",
-		"access_analytics": "Torna a Analytics",
-		"access_reporter": "Torna al Reporter",
-		"logged_in_as": "S'ha iniciat sessió",
-		"logout": "Tanca sessió",
-		"search_tooltip": "Cerca aplicacions",
-		"skip_to_apps": "Salta a les aplicacions",
-		"using_domain": "Utilitzant el domini"
-	},
-	"help": {
-		"contact_support": "Contacta amb el suport",
-		"email_message": "Si no trobeu la resposta a la vostra pregunta, feu clic a \"Contacta amb el suport\" per enviar la vostra pregunta al departament de suport.",
-		"error": "S'ha produït un error en carregar el contingut d'ajuda.",
-		"form": {
-			"description": "Descripció del problema",
-			"email": "Adreça de correu electrònic de l'organització",
-			"subject": "Resum del problema",
-			"type": "Tipus de problema"
-		},
-		"general_message": "Si necessiteu ajuda amb qualsevol part del servei AppsAnywhere, poseu-vos en contacte amb el departament IT de la vostra organització.",
-		"return_home": "Tornar a l’ajuda",
-		"support_message": "Podeu trobar moltes respostes a preguntes sobre AppsAnywhere al lloc de suport de l'organització a les quals podeu accedir fent clic al botó \"Ajuda i assistència\".",
-		"title": "Ajuda",
-		"visit_helpdesk": "Visiteu el servei de suport"
-	},
-	"hints": {
-		"close": "Entesos!",
-		"content": {
-			"favorites_text": "Configura les aplicacions més utilitzades com a 'Preferits' situant-te damunt l'aplicació i fent un clic a l'estrella. Aquestes aplicacions apareixeran quan vagis a la pestanya 'Preferits' al menú de filtres.",
-			"layout_text": "Personalitza la teva visualització triant entre tres dissenys d'aplicacions. Ves al menú de preferències per triar la teva visualització preferida.",
-			"unavailable_text": "Si una aplicació està en gris  vol dir que no està disponible. Pots veure com accedir-hi, situant el cursor al damunt i fent un clic a 'Més informació'"
-		},
-		"show_tips": "Mostra'm consells",
-		"title": "Sabies que...?"
-	},
-	"language": {
-		"error": {
-			"load": "No hem pogut carregar l'idioma seleccionat"
-		}
-	},
-	"launching": {
-		"direct_download": {
-			"button": "Ho tinc!",
-			"text": "Aviat hauríeu de començar la descàrrega.",
-			"title": "Comencem la descàrrega."
-		}
-	},
-	"ldap": {
-		"no_data": "Ho sento, no s'ha pogut trobar cap informació en aquest moment."
-	},
-	"list_control": {
-		"cancel": "Cancel·la",
-		"delete": "Elimina",
-		"description": "Afegiu aplicacions a aquesta llista fent un clic sobre la llista d'aplicacions i feu clic a \"Afegir a la llista\".",
-		"edit_name": "Canviar el nom",
-		"filter_apps": "Mostra només les aplicacions d'aquesta llista",
-		"finished": "Acaba",
-		"name_label": "Edició:",
-		"save": "Desa",
-		"share_list": "Comparteix la llista",
-		"show_all": "Mostra totes les aplicacions",
-		"update": "Actualitza"
-	},
-	"login": {
-		"365": "Inicia sessió amb Office 365",
-		"eula": "Acord de llicència d'usuari final",
-		"eula_acronym": "(EULA)",
-		"eula_message": "En iniciar la sessió, accepteu els termes del document",
-		"password": "Contrasenya",
-		"placeholder": {
-			"password": "Contrasenya",
-			"username": "Usuari"
-		},
-		"redirecting": "Redirigint",
-		"sign_in": "Inicia sessió",
-		"sign_in_or": "o",
-		"sign_in_via": "Inicieu sessió mitjançant ...",
-		"sign_in_via_different_method": "Inicieu sessió mitjançant un mètode diferent",
-		"sign_in_via_username": "Usuari i Contrasenya",
-		"signing_in": "Inici de sessió",
-		"username": "Nom d'usuari"
 	},
 	"lti": {
 		"apps": {
-			"found": "Encara no s'ha seleccionat cap aplicació per a aquest curs. | S'ha trobat 1 aplicació per a aquest curs | S'han trobat {count} aplicacions per a aquest curs",
-			"loading": "Carregant les aplicacions",
-			"missing": "Hem detectat que falten algunes aplicacions d'aquesta llista. Poseu-vos en contacte amb l'administrador del vostre curs si aquest problema persisteix.",
-			"view_all": "Veure totes les aplicacions"
+			"found": "No apps have been selected for this course yet. | 1 application found for this course | {count} apps found for this course",
+			"loading": "Loading apps",
+			"missing": "We have detected that some apps are missing from this list. Please contact your course administrator if this issue continues.",
+			"view_all": "View all apps"
 		},
-		"error": {
-			"course_code": "El codi d'aquest curs és buit, però és necessari per continuar.",
-			"course_not_found": "No s'ha pogut trobar el curs especificat.",
-			"no_administration": "No teniu permís per crear una llista d'aplicacions per a aquest curs.",
-			"no_course_code": "El curs especificat no té un codi de curs vàlid.",
-			"try_reloading": "Si torneu a carregar aquesta pàgina i no es soluciona el problema, poseu-vos en contacte amb l'administrador del vostre curs.",
-			"unauthorised": "Ho sentim, no tens permís per veure aquesta pàgina."
+		"app": {
+			"launch": {
+				"view": "View application"
+			}
 		},
 		"lists": {
 			"associate": {
+				"title": "Associate app list",
+				"currently_selected": "This is the currently selected list.",
+				"update": "Associate a different app list",
 				"already_associated": {
-					"title": "Llistes ja associades a un altre curs"
+					"title": "Lists already associated to another course"
 				},
-				"currently_selected": "Aquesta és la llista seleccionada actualment.",
-				"title": "Associa la llista d'aplicacions",
-				"update": "Associeu una llista d'aplicacions diferent"
+				"select": "Select",
+				"clone": "Clone",
+				"save_and_select": "Select"
 			},
-			"code_description": "Aquesta llista d'aplicacions s'ha associat amb el curs següent al vostre sistema de gestió de l'aprenentatge.",
-			"create": "Creeu una llista nova",
+			"create": "Create a new list",
 			"creating": {
-				"checking_for_updates": "Comprovant les actualitzacions de la llista",
-				"list_apps_updated": "S'han actualitzat les aplicacions de la llista associada a aquest curs",
-				"list_updated": "La llista associada a aquest curs s'ha actualitzat a  \"{list_name}\"",
-				"stop_checking_for_updates": "Deixeu de comprovar"
+				"checking_for_updates": "Checking for list updates",
+				"list_apps_updated": "The apps in the list associated to this course have been updated",
+				"list_updated": "The list associated to this course has been updated to: \"{list_name}\"",
+				"stop_checking_for_updates": "Stop checking"
 			},
-			"edit": "Edita aquesta llista",
+			"edit": "Edit this list",
 			"editing": {
-				"list_deleted": "La llista associada a aquest curs s'ha eliminat"
+				"list_deleted": "The list associated to this course has been removed"
 			},
-			"loading": "S'estan carregant les llistes d'aplicacions",
-			"no_apps": {
-				"button": "Afegiu aplicacions ara",
-				"copy": "Les aplicacions que afegiu a aquesta llista apareixeran aquí.",
-				"title": "No s'ha trobat cap aplicació en aquesta llista."
-			},
-			"none_found": "Ho sentim, no hem pogut trobar cap llista que es pugui associar a aquest curs.",
+			"loading": "Loading app lists",
+			"none_found": "Sorry, we could not find any lists that can be associated to this course.",
 			"none_linked": {
-				"button": "Associa la llista d'aplicacions",
-				"copy": "Associa una llista amb aquest curs per mostrar les aplicacions.",
-				"title": "No hi ha cap llista d'aplicacions associada"
+				"title": "No app list associated",
+				"copy": "Please associate a list with this course to display apps.",
+				"button": "Associate app list"
 			},
-			"selected": "Seleccionat"
+			"no_apps": {
+				"title": "No apps could be found in this list.",
+				"copy": "Apps which you add to this list will appear here.",
+				"button": "Add apps now"
+			},
+			"selected": "Selected",
+			"code_description": "This app list has been associated with the following course in your learning management system."
+		},
+		"error": {
+			"course_code": "The code for this course is empty, but is required to continue.",
+			"course_not_found" : "The specified course could not be found.",
+			"no_administration": "You do not have permission to create an App List for this course.",
+			"no_course_code": "The specified course does not have a valid course code.",
+			"try_reloading": "If reloading this page does not fix the issue, please contact your course administrator.",
+			"unauthorised": "Sorry, you do not have permission to view this page."
 		},
 		"timeout": {
-			"description": "La vostra sessió s'ha esgotat, si aquest problema persisteix després d'actualitzar la pàgina, poseu-vos en contacte amb l'administrador.",
-			"title": "Temps d’espera de la sessió"
+			"title": "Session Timeout",
+			"description": "Your session has timed out, if this issue continues after refreshing the page, please contact the administrator."
 		}
-	},
-	"manager": {
-		"missing": {
-			"copy": "Necessites tenir instal·lat AppsAnywhere perquè puguem entregar les teves aplicacions. Si encara no has instal·lat AppsAnywhere, només cal que facis clic a 'Instal·la ara'",
-			"title": "Has instal·lat AppsAnywhere al teu dispositiu?"
-		}
-	},
-	"misc": {
-		"all_rights_reserved": "Tots els drets reservats",
-		"copied": "Copiat!",
-		"currently_showing": "S'està mostrant actualment",
-		"slow_connection": "Sembla que triga més del que és habitual. Encara ho estem intentant. Espera, si us plau.",
-		"unknown": "Desconegut"
-	},
-	"platform": {
-		"android": "Plataforma Android",
-		"ios": "Plataforma iOS",
-		"linux": "Plataforma Linux",
-		"mac": "Plataforma macOS",
-		"unsupported": "La plataforma que utilitzes no és compatible actualment. Algunes aplicacions encara podrien funcionar correctament."
-	},
-	"popup": {
-		"close_message": "Tanca el missatge",
-		"go_away": "No ho mostris més"
-	},
-	"pre_launch": {
-		"of": "de",
-		"step": "Pas",
-		"wvd": {
-			"add_workspace": "Feu clic al botó Afegeix per afegir a l'espai de treball.",
-			"click_add_workspace": "Feu clic al botó Afegeix espai de treball.",
-			"click_copy_url": "Feu clic a Copia l'URL a continuació i enganxeu-lo a la pantalla Afegeix àrea de treball que es mostra a continuació.",
-			"click_launch_button": "Feu clic al botó següent per iniciar el client d'escriptori virtual.",
-			"click_workspaces": "Feu clic a la pestanya d'espais de treball.",
-			"copy_url": "Copia l'URL",
-			"find_desktop": "Cerqueu l'escriptori anomenat <b>{DesktopName}</b> i feu doble clic per iniciar-lo.",
-			"launch_app": "Un cop estiguis a l'escriptori virtual, fes servir AppsAnywhere per iniciar-lo {AppName}.",
-			"repeat_credentials": "És possible que tingueu d'iniciar la sessió a l'escriptori amb les mateixes credencials.",
-			"sign_in_university_account": "Inicieu la sessió amb el vostre compte universitari.",
-			"university_account": "Inicieu la sessió amb el vostre compte universitari.",
-			"vd_required": "Aquesta aplicació s'ha de llançar en un escriptori virtual",
-			"warn_launch_button": "Us mostrarem un botó per iniciar l'escriptori virtual en un moment. És possible que tingueu d'iniciar la sessió a l'escriptori amb les vostres credencials universitàries.",
-			"warn_sign_in_university_account": "Quan s'obre el client, és possible que se us demani que inicieu sessió amb el vostre compte de la universitat."
-		}
-	},
-	"preferences": {
-		"language": "Idioma",
-		"layout": "Disseny",
-		"show_tips": "Mostra consells",
-		"title": "Preferències"
-	},
-	"search": {
-		"no_results": "No s'ha trobat cap coincidència"
-	},
-	"settings": {
-		"app_lists": "Llistes d'aplicacions",
-		"preference": "Preferències",
-		"take_tour": "Fer el tour"
-	},
-	"setup": {
-		"download": {
-			"done": "Fet",
-			"started": {
-				"copy": "<p><strong class=\"brand\">Només has de fer-ho el primer cop que visitis AppsAnywhere des d'un nou dispositiu.</strong><br /> Per entrar a AppsAnywhere, només has d'instal·lar el programa&hellip;</p><ol class=\"standout-list\"><li class=\"standout-list__item\"><span>La descàrrega hauria de començar automàticament.<br />(Si en 5 segons no ha començat, <strong><a href=\"{AppManagerLocation}\">fes un clic aquí</a></strong>).</span></li><li class=\"standout-list__item\"><span>Quan la descàrrega hagi finalitzat, fes un clic <strong class=\"brand\">&lsquo;Executa&rsquo;</strong> per iniciar el programa.</span></li><li class=\"standout-list__item\"><span>Feu clic a <strong class=\"brand\">&lsquo;Següent&rsquo;</strong> fins que aparegui <strong class=\"brand\">&lsquo;Fet&rsquo;</strong>.</span></li></ol>",
-				"help": "Fes un clic a Fet un cop hagis completat la instal·lació.",
-				"title": "La vostra descàrrega ha començat."
-			}
-		},
-		"install": {
-			"step_one": "Accepta la descàrrega",
-			"step_three": "Permet que s'iniciï",
-			"step_two": "Instal·la AppsAnywhere"
-		}
-	},
-	"tour": {
-		"begin": "Comença",
-		"completed-aria": "Acaba el tour",
-		"completed-text": "Fet",
-		"content": {
-			"aa_client_text": "El client AppsAnywhere descobreix quines aplicacions pots accedir i ens ajuda a iniciar les teves aplicacions.",
-			"aa_client_title": "Client AppsAnywhere",
-			"launching_text": "Per iniciar una aplicació, només has de situar el cursor al seu damunt i fer un clic a 'Inicia'",
-			"launching_title": "Inicia aplicacions",
-			"more_info_text": "Per trobar informació sobre com i des d'on es pot accedir a una aplicació, fes clic a 'Més informació'.",
-			"more_info_title": "Més informació",
-			"search_text": "Cerca ràpidament les teves aplicacions amb el quadre de cerca.",
-			"search_title": "Cerca",
-			"validation_text": "Cada vegada que iniciïs sessió a AppsAnywhere, verificarem el teu dispositiu per veure a quines aplicacions tens accés.",
-			"validation_title": "Valida el teu dispositiu",
-			"welcome_text": "AppsAnywhere és el lloc des d'on pots accedir a totes les teves aplicacions.",
-			"welcome_title": "Benvinguda"
-		},
-		"dismiss": "Ja n'ets un expert",
-		"next-aria": "Pas següent del tour",
-		"next-text": "Següent",
-		"previous-aria": "Pas anterior del tour",
-		"previous-text": "Anterior",
-		"skip_text": "Salta el tour"
-	},
-	"two_factor": {
-		"error": "Hi ha hagut un problema a l'enviar el codi. Torna-ho a provar.",
-		"required": {
-			"text": "Per publicar algunes de les teves aplicacions, has de proporcionar un codi únic.",
-			"title": "Es requereix l'autenticació amb dos factors."
-		},
-		"start": "Autentica ara",
-		"submit_code": "Envia codi",
-		"text": "Introdueix el codi que coincideixi amb la imatge següent per accedir a les teves aplicacions.",
-		"title": "Autenticació de dos factors"
-	},
-	"validation": {
-		"complete": {
-			"text": "Has estat validat amb èxit.",
-			"title": "Validació correcta"
-		},
-		"protocol": {
-			"appsanywhere": {
-				"text": "Sempre que se us demani, feu clic a \"Inicia l'aplicació\" per permetre'ns validar el vostre dispositiu.",
-				"title": "Estem intentant connectar amb el client AppsAnywhere des del teu dispositiu."
-			},
-			"button": "Llest!",
-			"parallels": {
-				"text": "Sempre que se us demani, feu clic a \"Inicia l'aplicació\" per permetre'ns iniciar la vostra aplicació.",
-				"title": "Intentem comunicar-nos amb Parallels al dispositiu."
-			}
-		},
-		"required": {
-			"text": "No podem fer que totes les teves aplicacions estiguin disponibles fins que haguem recopilat més informació sobre el teu dispositiu.",
-			"title": "Validació obligatòria"
-		},
-		"retry": "Reintenta",
-		"start": "Valida ara",
-		"validating": {
-			"text": "Actualment estem validant. Espera si us plau…",
-			"title": "Validació en progrés…"
-		}
-	},
-	"welcome": {
-		"already_used": "Ja he fet servir AppsAnywhere en aquest dispositiu!",
-		"first_time": "És la primera vegada que faig servir AppsAnywhere en aquest dispositiu.",
-		"go": "Comença",
-		"title": "Benvinguts a AppsAnywhere"
 	}
 }
