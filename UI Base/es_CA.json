@@ -775,65 +775,65 @@
 	},
 	"lti": {
 		"apps": {
-			"found": "No apps have been selected for this course yet. | 1 application found for this course | {count} apps found for this course",
-			"loading": "Loading apps",
-			"missing": "We have detected that some apps are missing from this list. Please contact your course administrator if this issue continues.",
-			"view_all": "View all apps"
+			"found": "Encara no s'ha seleccionat cap aplicació per a aquest curs. | S'ha trobat 1 aplicació per a aquest curs | {count} aplicacions trobades per a aquest curs",
+			"loading": "Carregant aplicacions",
+			"missing": "Hem detectat que falten algunes aplicacions d'aquesta llista. Poseu-vos en contacte amb l'administrador del vostre curs si aquest problema continua.",
+			"view_all": "Veure totes les aplicacions"
 		},
 		"app": {
 			"launch": {
-				"view": "View application"
+				"view": "Veure aplicació"
 			}
 		},
 		"lists": {
 			"associate": {
-				"title": "Associate app list",
-				"currently_selected": "This is the currently selected list.",
-				"update": "Associate a different app list",
+				"title": "Llista d'aplicacions associades",
+				"currently_selected": "Aquesta és la llista seleccionada actualment.",
+				"update": "Associa una llista d'aplicacions diferent",
 				"already_associated": {
-					"title": "Lists already associated to another course"
+					"title": "Llistes ja associades a un altre curs"
 				},
-				"select": "Select",
-				"clone": "Clone",
-				"save_and_select": "Select"
+				"select": "Selecciona",
+				"clone": "Clona",
+				"save_and_select": "Selecciona"
 			},
-			"create": "Create a new list",
+			"create": "Crea una llista nova",
 			"creating": {
-				"checking_for_updates": "Checking for list updates",
-				"list_apps_updated": "The apps in the list associated to this course have been updated",
-				"list_updated": "The list associated to this course has been updated to: \"{list_name}\"",
-				"stop_checking_for_updates": "Stop checking"
+				"checking_for_updates": "Comprovació de les actualitzacions de la llista",
+				"list_apps_updated": "S'han actualitzat les aplicacions de la llista associada a aquest curs",
+				"list_updated": "La llista associada a aquest curs s'ha actualitzat a: \"{list_name}\"",
+				"stop_checking_for_updates": "Deixeu de comprovar"
 			},
-			"edit": "Edit this list",
+			"edit": "Editeu aquesta llista",
 			"editing": {
-				"list_deleted": "The list associated to this course has been removed"
+				"list_deleted": "La llista associada a aquest curs s'ha eliminat"
 			},
-			"loading": "Loading app lists",
-			"none_found": "Sorry, we could not find any lists that can be associated to this course.",
+			"loading": "S'estan carregant les llistes d'aplicacions",
+			"none_found": "Ho sentim, no hem pogut trobar cap llista que es pugui associar a aquest curs.",
 			"none_linked": {
-				"title": "No app list associated",
-				"copy": "Please associate a list with this course to display apps.",
-				"button": "Associate app list"
+				"title": "No hi ha cap llista d'aplicacions associada",
+				"copy": "Associa una llista amb aquest curs per mostrar les aplicacions.",
+				"button": "Llista d'aplicacions associades"
 			},
 			"no_apps": {
-				"title": "No apps could be found in this list.",
-				"copy": "Apps which you add to this list will appear here.",
-				"button": "Add apps now"
+				"title": "No s'ha pogut trobar cap aplicació en aquesta llista.",
+				"copy": "Les aplicacions que afegiu a aquesta llista apareixeran aquí.",
+				"button": "Afegeix aplicacions"
 			},
-			"selected": "Selected",
-			"code_description": "This app list has been associated with the following course in your learning management system."
+			"selected": "Seleccionat",
+			"code_description": "Aquesta llista d'aplicacions s'ha associat amb el curs següent al vostre sistema de gestió de l'aprenentatge."
 		},
 		"error": {
-			"course_code": "The code for this course is empty, but is required to continue.",
-			"course_not_found" : "The specified course could not be found.",
-			"no_administration": "You do not have permission to create an App List for this course.",
-			"no_course_code": "The specified course does not have a valid course code.",
-			"try_reloading": "If reloading this page does not fix the issue, please contact your course administrator.",
-			"unauthorised": "Sorry, you do not have permission to view this page."
+			"course_code": "El codi d'aquest curs és buit, però és necessari per continuar.",
+			"course_not_found" : "No s'ha pogut trobar el curs especificat.",
+			"no_administration": "No tens permís per crear una llista d'aplicacions per a aquest curs.",
+			"no_course_code": "El curs especificat no té un codi de curs vàlid.",
+			"try_reloading": "Si tornant a carregar aquesta pàgina no solucioneu el problema, poseu-vos en contacte amb l'administrador del vostre curs.",
+			"unauthorised": "Ho sentim, no tens permís per veure aquesta pàgina."
 		},
 		"timeout": {
-			"title": "Session Timeout",
-			"description": "Your session has timed out, if this issue continues after refreshing the page, please contact the administrator."
+			"title": "Temps d'espera de la sessió",
+			"description": "La vostra sessió s'ha esgotat, si aquest problema continua després d'actualitzar la pàgina, poseu-vos en contacte amb l'administrador."
 		}
 	}
 }
